@@ -1,0 +1,59 @@
+\hypertarget{group___c_a_n___mode}{}\doxysection{C\+A\+N\+\_\+\+Mode}
+\label{group___c_a_n___mode}\index{CAN\_Mode@{CAN\_Mode}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___c_a_n___mode_gaaf1f48ab4917ccfd5fd31dd781d59e29}{C\+A\+N\+\_\+\+Mode\+\_\+\+Normal}}~((uint8\+\_\+t)0x00)
+\item 
+\#define \mbox{\hyperlink{group___c_a_n___mode_gaad036c944403186eb3496ff65020c0ee}{C\+A\+N\+\_\+\+Mode\+\_\+\+Loop\+Back}}~((uint8\+\_\+t)0x01)
+\item 
+\#define \mbox{\hyperlink{group___c_a_n___mode_gac05e5d666f18eb35e8da70e6e17e8fb8}{C\+A\+N\+\_\+\+Mode\+\_\+\+Silent}}~((uint8\+\_\+t)0x02)
+\item 
+\#define \mbox{\hyperlink{group___c_a_n___mode_ga087afa0d24d2cf399225993573c984eb}{C\+A\+N\+\_\+\+Mode\+\_\+\+Silent\+\_\+\+Loop\+Back}}~((uint8\+\_\+t)0x03)
+\item 
+\#define {\bfseries I\+S\+\_\+\+C\+A\+N\+\_\+\+M\+O\+DE}(M\+O\+DE)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___c_a_n___mode_gaad036c944403186eb3496ff65020c0ee}\label{group___c_a_n___mode_gaad036c944403186eb3496ff65020c0ee}} 
+\index{CAN\_Mode@{CAN\_Mode}!CAN\_Mode\_LoopBack@{CAN\_Mode\_LoopBack}}
+\index{CAN\_Mode\_LoopBack@{CAN\_Mode\_LoopBack}!CAN\_Mode@{CAN\_Mode}}
+\doxysubsubsection{\texorpdfstring{CAN\_Mode\_LoopBack}{CAN\_Mode\_LoopBack}}
+{\footnotesize\ttfamily \#define C\+A\+N\+\_\+\+Mode\+\_\+\+Loop\+Back~((uint8\+\_\+t)0x01)}
+
+loopback mode \mbox{\Hypertarget{group___c_a_n___mode_gaaf1f48ab4917ccfd5fd31dd781d59e29}\label{group___c_a_n___mode_gaaf1f48ab4917ccfd5fd31dd781d59e29}} 
+\index{CAN\_Mode@{CAN\_Mode}!CAN\_Mode\_Normal@{CAN\_Mode\_Normal}}
+\index{CAN\_Mode\_Normal@{CAN\_Mode\_Normal}!CAN\_Mode@{CAN\_Mode}}
+\doxysubsubsection{\texorpdfstring{CAN\_Mode\_Normal}{CAN\_Mode\_Normal}}
+{\footnotesize\ttfamily \#define C\+A\+N\+\_\+\+Mode\+\_\+\+Normal~((uint8\+\_\+t)0x00)}
+
+normal mode \mbox{\Hypertarget{group___c_a_n___mode_gac05e5d666f18eb35e8da70e6e17e8fb8}\label{group___c_a_n___mode_gac05e5d666f18eb35e8da70e6e17e8fb8}} 
+\index{CAN\_Mode@{CAN\_Mode}!CAN\_Mode\_Silent@{CAN\_Mode\_Silent}}
+\index{CAN\_Mode\_Silent@{CAN\_Mode\_Silent}!CAN\_Mode@{CAN\_Mode}}
+\doxysubsubsection{\texorpdfstring{CAN\_Mode\_Silent}{CAN\_Mode\_Silent}}
+{\footnotesize\ttfamily \#define C\+A\+N\+\_\+\+Mode\+\_\+\+Silent~((uint8\+\_\+t)0x02)}
+
+silent mode \mbox{\Hypertarget{group___c_a_n___mode_ga087afa0d24d2cf399225993573c984eb}\label{group___c_a_n___mode_ga087afa0d24d2cf399225993573c984eb}} 
+\index{CAN\_Mode@{CAN\_Mode}!CAN\_Mode\_Silent\_LoopBack@{CAN\_Mode\_Silent\_LoopBack}}
+\index{CAN\_Mode\_Silent\_LoopBack@{CAN\_Mode\_Silent\_LoopBack}!CAN\_Mode@{CAN\_Mode}}
+\doxysubsubsection{\texorpdfstring{CAN\_Mode\_Silent\_LoopBack}{CAN\_Mode\_Silent\_LoopBack}}
+{\footnotesize\ttfamily \#define C\+A\+N\+\_\+\+Mode\+\_\+\+Silent\+\_\+\+Loop\+Back~((uint8\+\_\+t)0x03)}
+
+loopback combined with silent mode \mbox{\Hypertarget{group___c_a_n___mode_ga5d6480c240edeba383b4e07d65814d98}\label{group___c_a_n___mode_ga5d6480c240edeba383b4e07d65814d98}} 
+\index{CAN\_Mode@{CAN\_Mode}!IS\_CAN\_MODE@{IS\_CAN\_MODE}}
+\index{IS\_CAN\_MODE@{IS\_CAN\_MODE}!CAN\_Mode@{CAN\_Mode}}
+\doxysubsubsection{\texorpdfstring{IS\_CAN\_MODE}{IS\_CAN\_MODE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+C\+A\+N\+\_\+\+M\+O\+DE(\begin{DoxyParamCaption}\item[{}]{M\+O\+DE }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                           (((MODE) == \mbox{\hyperlink{group___c_a_n___mode_gaaf1f48ab4917ccfd5fd31dd781d59e29}{CAN\_Mode\_Normal}}) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == \mbox{\hyperlink{group___c_a_n___mode_gaad036c944403186eb3496ff65020c0ee}{CAN\_Mode\_LoopBack}})|| \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == \mbox{\hyperlink{group___c_a_n___mode_gac05e5d666f18eb35e8da70e6e17e8fb8}{CAN\_Mode\_Silent}}) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == \mbox{\hyperlink{group___c_a_n___mode_ga087afa0d24d2cf399225993573c984eb}{CAN\_Mode\_Silent\_LoopBack}}))}
+
+\end{DoxyCode}

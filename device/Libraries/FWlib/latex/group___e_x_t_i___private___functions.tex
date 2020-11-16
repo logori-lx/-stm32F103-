@@ -1,0 +1,191 @@
+\hypertarget{group___e_x_t_i___private___functions}{}\doxysection{E\+X\+T\+I\+\_\+\+Private\+\_\+\+Functions}
+\label{group___e_x_t_i___private___functions}\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga07072e339cb9ecb9cd9d4b94afc9f317}{E\+X\+T\+I\+\_\+\+De\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Deinitializes the E\+X\+TI peripheral registers to their default reset values. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga8c9ce6352a3a2dfc8fc9287cb24c6501}{E\+X\+T\+I\+\_\+\+Init}} (\mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} $\ast$E\+X\+T\+I\+\_\+\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em Initializes the E\+X\+TI peripheral according to the specified parameters in the E\+X\+T\+I\+\_\+\+Init\+Struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga86b9e662d18a2f829999cfb26aa7ca20}{E\+X\+T\+I\+\_\+\+Struct\+Init}} (\mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} $\ast$E\+X\+T\+I\+\_\+\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em Fills each E\+X\+T\+I\+\_\+\+Init\+Struct member with its reset value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga897e8ea59f40a19e047fb9994876fc9b}{E\+X\+T\+I\+\_\+\+Generate\+S\+W\+Interrupt}} (uint32\+\_\+t E\+X\+T\+I\+\_\+\+Line)
+\begin{DoxyCompactList}\small\item\em Generates a Software interrupt. \end{DoxyCompactList}\item 
+Flag\+Status \mbox{\hyperlink{group___e_x_t_i___private___functions_ga0ce06e6b312592df149800d63218cffa}{E\+X\+T\+I\+\_\+\+Get\+Flag\+Status}} (uint32\+\_\+t E\+X\+T\+I\+\_\+\+Line)
+\begin{DoxyCompactList}\small\item\em Checks whether the specified E\+X\+TI line flag is set or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga8e07aaaa286dea4803605d5968850a92}{E\+X\+T\+I\+\_\+\+Clear\+Flag}} (uint32\+\_\+t E\+X\+T\+I\+\_\+\+Line)
+\begin{DoxyCompactList}\small\item\em Clears the E\+X\+TI\textquotesingle{}s line pending flags. \end{DoxyCompactList}\item 
+I\+T\+Status \mbox{\hyperlink{group___e_x_t_i___private___functions_gaf7b51519062ae42fd27ee689cab364aa}{E\+X\+T\+I\+\_\+\+Get\+I\+T\+Status}} (uint32\+\_\+t E\+X\+T\+I\+\_\+\+Line)
+\begin{DoxyCompactList}\small\item\em Checks whether the specified E\+X\+TI line is asserted or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___e_x_t_i___private___functions_ga3652a7e682728b310c124e7e974d1468}{E\+X\+T\+I\+\_\+\+Clear\+I\+T\+Pending\+Bit}} (uint32\+\_\+t E\+X\+T\+I\+\_\+\+Line)
+\begin{DoxyCompactList}\small\item\em Clears the E\+X\+TI\textquotesingle{}s line pending bits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga8e07aaaa286dea4803605d5968850a92}\label{group___e_x_t_i___private___functions_ga8e07aaaa286dea4803605d5968850a92}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_ClearFlag@{EXTI\_ClearFlag}}
+\index{EXTI\_ClearFlag@{EXTI\_ClearFlag}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_ClearFlag()}{EXTI\_ClearFlag()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+Clear\+Flag (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{E\+X\+T\+I\+\_\+\+Line }\end{DoxyParamCaption})}
+
+
+
+Clears the E\+X\+TI\textquotesingle{}s line pending flags. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Line} & specifies the E\+X\+TI lines flags to clear. This parameter can be any combination of E\+X\+T\+I\+\_\+\+Linex where x can be (0..19). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga3652a7e682728b310c124e7e974d1468}\label{group___e_x_t_i___private___functions_ga3652a7e682728b310c124e7e974d1468}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_ClearITPendingBit@{EXTI\_ClearITPendingBit}}
+\index{EXTI\_ClearITPendingBit@{EXTI\_ClearITPendingBit}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_ClearITPendingBit()}{EXTI\_ClearITPendingBit()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+Clear\+I\+T\+Pending\+Bit (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{E\+X\+T\+I\+\_\+\+Line }\end{DoxyParamCaption})}
+
+
+
+Clears the E\+X\+TI\textquotesingle{}s line pending bits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Line} & specifies the E\+X\+TI lines to clear. This parameter can be any combination of E\+X\+T\+I\+\_\+\+Linex where x can be (0..19). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga07072e339cb9ecb9cd9d4b94afc9f317}\label{group___e_x_t_i___private___functions_ga07072e339cb9ecb9cd9d4b94afc9f317}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_DeInit@{EXTI\_DeInit}}
+\index{EXTI\_DeInit@{EXTI\_DeInit}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_DeInit()}{EXTI\_DeInit()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Deinitializes the E\+X\+TI peripheral registers to their default reset values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga897e8ea59f40a19e047fb9994876fc9b}\label{group___e_x_t_i___private___functions_ga897e8ea59f40a19e047fb9994876fc9b}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_GenerateSWInterrupt@{EXTI\_GenerateSWInterrupt}}
+\index{EXTI\_GenerateSWInterrupt@{EXTI\_GenerateSWInterrupt}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_GenerateSWInterrupt()}{EXTI\_GenerateSWInterrupt()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+Generate\+S\+W\+Interrupt (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{E\+X\+T\+I\+\_\+\+Line }\end{DoxyParamCaption})}
+
+
+
+Generates a Software interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Line} & specifies the E\+X\+TI lines to be enabled or disabled. This parameter can be any combination of E\+X\+T\+I\+\_\+\+Linex where x can be (0..19). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga0ce06e6b312592df149800d63218cffa}\label{group___e_x_t_i___private___functions_ga0ce06e6b312592df149800d63218cffa}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_GetFlagStatus@{EXTI\_GetFlagStatus}}
+\index{EXTI\_GetFlagStatus@{EXTI\_GetFlagStatus}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_GetFlagStatus()}{EXTI\_GetFlagStatus()}}
+{\footnotesize\ttfamily Flag\+Status E\+X\+T\+I\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{E\+X\+T\+I\+\_\+\+Line }\end{DoxyParamCaption})}
+
+
+
+Checks whether the specified E\+X\+TI line flag is set or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Line} & specifies the E\+X\+TI line flag to check. This parameter can be\+: \begin{DoxyItemize}
+\item E\+X\+T\+I\+\_\+\+Linex\+: External interrupt line x where x(0..19) \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em The} & new state of E\+X\+T\+I\+\_\+\+Line (S\+ET or R\+E\+S\+ET). \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_gaf7b51519062ae42fd27ee689cab364aa}\label{group___e_x_t_i___private___functions_gaf7b51519062ae42fd27ee689cab364aa}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_GetITStatus@{EXTI\_GetITStatus}}
+\index{EXTI\_GetITStatus@{EXTI\_GetITStatus}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_GetITStatus()}{EXTI\_GetITStatus()}}
+{\footnotesize\ttfamily I\+T\+Status E\+X\+T\+I\+\_\+\+Get\+I\+T\+Status (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{E\+X\+T\+I\+\_\+\+Line }\end{DoxyParamCaption})}
+
+
+
+Checks whether the specified E\+X\+TI line is asserted or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Line} & specifies the E\+X\+TI line to check. This parameter can be\+: \begin{DoxyItemize}
+\item E\+X\+T\+I\+\_\+\+Linex\+: External interrupt line x where x(0..19) \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em The} & new state of E\+X\+T\+I\+\_\+\+Line (S\+ET or R\+E\+S\+ET). \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga8c9ce6352a3a2dfc8fc9287cb24c6501}\label{group___e_x_t_i___private___functions_ga8c9ce6352a3a2dfc8fc9287cb24c6501}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_Init@{EXTI\_Init}}
+\index{EXTI\_Init@{EXTI\_Init}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_Init()}{EXTI\_Init()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} $\ast$}]{E\+X\+T\+I\+\_\+\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+Initializes the E\+X\+TI peripheral according to the specified parameters in the E\+X\+T\+I\+\_\+\+Init\+Struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Init\+Struct} & pointer to a \mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} structure that contains the configuration information for the E\+X\+TI peripheral. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___e_x_t_i___private___functions_ga86b9e662d18a2f829999cfb26aa7ca20}\label{group___e_x_t_i___private___functions_ga86b9e662d18a2f829999cfb26aa7ca20}} 
+\index{EXTI\_Private\_Functions@{EXTI\_Private\_Functions}!EXTI\_StructInit@{EXTI\_StructInit}}
+\index{EXTI\_StructInit@{EXTI\_StructInit}!EXTI\_Private\_Functions@{EXTI\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{EXTI\_StructInit()}{EXTI\_StructInit()}}
+{\footnotesize\ttfamily void E\+X\+T\+I\+\_\+\+Struct\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} $\ast$}]{E\+X\+T\+I\+\_\+\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+Fills each E\+X\+T\+I\+\_\+\+Init\+Struct member with its reset value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em E\+X\+T\+I\+\_\+\+Init\+Struct} & pointer to a \mbox{\hyperlink{struct_e_x_t_i___init_type_def}{E\+X\+T\+I\+\_\+\+Init\+Type\+Def}} structure which will be initialized. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

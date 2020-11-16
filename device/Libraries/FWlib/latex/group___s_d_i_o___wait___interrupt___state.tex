@@ -1,0 +1,50 @@
+\hypertarget{group___s_d_i_o___wait___interrupt___state}{}\doxysection{S\+D\+I\+O\+\_\+\+Wait\+\_\+\+Interrupt\+\_\+\+State}
+\label{group___s_d_i_o___wait___interrupt___state}\index{SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga266294e1ffd7a4b45e62bff753ca44b2}{S\+D\+I\+O\+\_\+\+Wait\+\_\+\+No}}~((uint32\+\_\+t)0x00000000)
+\item 
+\#define \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga3914bbe26a656c8e151272ccdc12c71c}{S\+D\+I\+O\+\_\+\+Wait\+\_\+\+IT}}~((uint32\+\_\+t)0x00000100)
+\item 
+\#define \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga2a4104023a7f8403ddd159ec3bbb8592}{S\+D\+I\+O\+\_\+\+Wait\+\_\+\+Pend}}~((uint32\+\_\+t)0x00000200)
+\item 
+\#define {\bfseries I\+S\+\_\+\+S\+D\+I\+O\+\_\+\+W\+A\+IT}(W\+A\+IT)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___s_d_i_o___wait___interrupt___state_ga7ee5c289c8e06a76b849808d15b03810}\label{group___s_d_i_o___wait___interrupt___state_ga7ee5c289c8e06a76b849808d15b03810}} 
+\index{SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}!IS\_SDIO\_WAIT@{IS\_SDIO\_WAIT}}
+\index{IS\_SDIO\_WAIT@{IS\_SDIO\_WAIT}!SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}}
+\doxysubsubsection{\texorpdfstring{IS\_SDIO\_WAIT}{IS\_SDIO\_WAIT}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+S\+D\+I\+O\+\_\+\+W\+A\+IT(\begin{DoxyParamCaption}\item[{}]{W\+A\+IT }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                            (((WAIT) == \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga266294e1ffd7a4b45e62bff753ca44b2}{SDIO\_Wait\_No}}) || ((WAIT) == \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga3914bbe26a656c8e151272ccdc12c71c}{SDIO\_Wait\_IT}}) || \(\backslash\)}
+\DoxyCodeLine{                            ((WAIT) == \mbox{\hyperlink{group___s_d_i_o___wait___interrupt___state_ga2a4104023a7f8403ddd159ec3bbb8592}{SDIO\_Wait\_Pend}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___s_d_i_o___wait___interrupt___state_ga3914bbe26a656c8e151272ccdc12c71c}\label{group___s_d_i_o___wait___interrupt___state_ga3914bbe26a656c8e151272ccdc12c71c}} 
+\index{SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}!SDIO\_Wait\_IT@{SDIO\_Wait\_IT}}
+\index{SDIO\_Wait\_IT@{SDIO\_Wait\_IT}!SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}}
+\doxysubsubsection{\texorpdfstring{SDIO\_Wait\_IT}{SDIO\_Wait\_IT}}
+{\footnotesize\ttfamily \#define S\+D\+I\+O\+\_\+\+Wait\+\_\+\+IT~((uint32\+\_\+t)0x00000100)}
+
+S\+D\+IO Wait Interrupt Request \mbox{\Hypertarget{group___s_d_i_o___wait___interrupt___state_ga266294e1ffd7a4b45e62bff753ca44b2}\label{group___s_d_i_o___wait___interrupt___state_ga266294e1ffd7a4b45e62bff753ca44b2}} 
+\index{SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}!SDIO\_Wait\_No@{SDIO\_Wait\_No}}
+\index{SDIO\_Wait\_No@{SDIO\_Wait\_No}!SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}}
+\doxysubsubsection{\texorpdfstring{SDIO\_Wait\_No}{SDIO\_Wait\_No}}
+{\footnotesize\ttfamily \#define S\+D\+I\+O\+\_\+\+Wait\+\_\+\+No~((uint32\+\_\+t)0x00000000)}
+
+S\+D\+IO No Wait, Time\+Out is enabled \mbox{\Hypertarget{group___s_d_i_o___wait___interrupt___state_ga2a4104023a7f8403ddd159ec3bbb8592}\label{group___s_d_i_o___wait___interrupt___state_ga2a4104023a7f8403ddd159ec3bbb8592}} 
+\index{SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}!SDIO\_Wait\_Pend@{SDIO\_Wait\_Pend}}
+\index{SDIO\_Wait\_Pend@{SDIO\_Wait\_Pend}!SDIO\_Wait\_Interrupt\_State@{SDIO\_Wait\_Interrupt\_State}}
+\doxysubsubsection{\texorpdfstring{SDIO\_Wait\_Pend}{SDIO\_Wait\_Pend}}
+{\footnotesize\ttfamily \#define S\+D\+I\+O\+\_\+\+Wait\+\_\+\+Pend~((uint32\+\_\+t)0x00000200)}
+
+S\+D\+IO Wait End of transfer 

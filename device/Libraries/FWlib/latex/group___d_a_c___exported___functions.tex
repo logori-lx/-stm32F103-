@@ -1,0 +1,315 @@
+\hypertarget{group___d_a_c___exported___functions}{}\doxysection{D\+A\+C\+\_\+\+Exported\+\_\+\+Functions}
+\label{group___d_a_c___exported___functions}\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga1fae225204e1e049d6795319e99ba8bc}{D\+A\+C\+\_\+\+De\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Deinitializes the D\+AC peripheral registers to their default reset values. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga7c59850468ed4bf0659663fe495441da}{D\+A\+C\+\_\+\+Init}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel, \mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} $\ast$D\+A\+C\+\_\+\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em Initializes the D\+AC peripheral according to the specified parameters in the D\+A\+C\+\_\+\+Init\+Struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_gadfc270974d54cb5fa5f92556015c4046}{D\+A\+C\+\_\+\+Struct\+Init}} (\mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} $\ast$D\+A\+C\+\_\+\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em Fills each D\+A\+C\+\_\+\+Init\+Struct member with its default value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga323e61530d7fa9396c3bce9edb61f733}{D\+A\+C\+\_\+\+Cmd}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel, Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables the specified D\+AC channel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga194cba38f60ace11658824f0250121f4}{D\+A\+C\+\_\+\+D\+M\+A\+Cmd}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel, Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables the specified D\+AC channel D\+MA request. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga46f9f7f6b9520a86e300fe966afe5fb3}{D\+A\+C\+\_\+\+Software\+Trigger\+Cmd}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel, Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables the selected D\+AC channel software trigger. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_gab4d3b364a6b184dcd65f3b294ebf56dc}{D\+A\+C\+\_\+\+Dual\+Software\+Trigger\+Cmd}} (Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables simultaneously the two D\+AC channels software triggers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_gabd51ae6880821d4dcd923969ec19a19e}{D\+A\+C\+\_\+\+Wave\+Generation\+Cmd}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel, uint32\+\_\+t D\+A\+C\+\_\+\+Wave, Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables the selected D\+AC channel wave generation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_gad06b4230d2b17d1d13f41dce4c782461}{D\+A\+C\+\_\+\+Set\+Channel1\+Data}} (uint32\+\_\+t D\+A\+C\+\_\+\+Align, uint16\+\_\+t Data)
+\begin{DoxyCompactList}\small\item\em Set the specified data holding register value for D\+AC channel1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga44e12006ec186791378d132da8541552}{D\+A\+C\+\_\+\+Set\+Channel2\+Data}} (uint32\+\_\+t D\+A\+C\+\_\+\+Align, uint16\+\_\+t Data)
+\begin{DoxyCompactList}\small\item\em Set the specified data holding register value for D\+AC channel2. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___d_a_c___exported___functions_ga4ca2cfdf56ab35a23f2517f23d7fbb24}{D\+A\+C\+\_\+\+Set\+Dual\+Channel\+Data}} (uint32\+\_\+t D\+A\+C\+\_\+\+Align, uint16\+\_\+t Data2, uint16\+\_\+t Data1)
+\begin{DoxyCompactList}\small\item\em Set the specified data holding register value for dual channel D\+AC. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{group___d_a_c___exported___functions_ga51274838de1e5dd012a82d7f44d7a50b}{D\+A\+C\+\_\+\+Get\+Data\+Output\+Value}} (uint32\+\_\+t D\+A\+C\+\_\+\+Channel)
+\begin{DoxyCompactList}\small\item\em Returns the last data output value of the selected D\+AC channel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga323e61530d7fa9396c3bce9edb61f733}\label{group___d_a_c___exported___functions_ga323e61530d7fa9396c3bce9edb61f733}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_Cmd@{DAC\_Cmd}}
+\index{DAC\_Cmd@{DAC\_Cmd}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_Cmd()}{DAC\_Cmd()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Cmd (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel,  }\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the specified D\+AC channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+{\em New\+State} & new state of the D\+AC channel. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga1fae225204e1e049d6795319e99ba8bc}\label{group___d_a_c___exported___functions_ga1fae225204e1e049d6795319e99ba8bc}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_DeInit@{DAC\_DeInit}}
+\index{DAC\_DeInit@{DAC\_DeInit}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_DeInit()}{DAC\_DeInit()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Deinitializes the D\+AC peripheral registers to their default reset values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga194cba38f60ace11658824f0250121f4}\label{group___d_a_c___exported___functions_ga194cba38f60ace11658824f0250121f4}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_DMACmd@{DAC\_DMACmd}}
+\index{DAC\_DMACmd@{DAC\_DMACmd}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_DMACmd()}{DAC\_DMACmd()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+D\+M\+A\+Cmd (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel,  }\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the specified D\+AC channel D\+MA request. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+{\em New\+State} & new state of the selected D\+AC channel D\+MA request. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_gab4d3b364a6b184dcd65f3b294ebf56dc}\label{group___d_a_c___exported___functions_gab4d3b364a6b184dcd65f3b294ebf56dc}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_DualSoftwareTriggerCmd@{DAC\_DualSoftwareTriggerCmd}}
+\index{DAC\_DualSoftwareTriggerCmd@{DAC\_DualSoftwareTriggerCmd}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_DualSoftwareTriggerCmd()}{DAC\_DualSoftwareTriggerCmd()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Dual\+Software\+Trigger\+Cmd (\begin{DoxyParamCaption}\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables simultaneously the two D\+AC channels software triggers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em New\+State} & new state of the D\+AC channels software triggers. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga51274838de1e5dd012a82d7f44d7a50b}\label{group___d_a_c___exported___functions_ga51274838de1e5dd012a82d7f44d7a50b}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_GetDataOutputValue@{DAC\_GetDataOutputValue}}
+\index{DAC\_GetDataOutputValue@{DAC\_GetDataOutputValue}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_GetDataOutputValue()}{DAC\_GetDataOutputValue()}}
+{\footnotesize\ttfamily uint16\+\_\+t D\+A\+C\+\_\+\+Get\+Data\+Output\+Value (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel }\end{DoxyParamCaption})}
+
+
+
+Returns the last data output value of the selected D\+AC channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em The} & selected D\+AC channel data output value. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga7c59850468ed4bf0659663fe495441da}\label{group___d_a_c___exported___functions_ga7c59850468ed4bf0659663fe495441da}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_Init@{DAC\_Init}}
+\index{DAC\_Init@{DAC\_Init}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_Init()}{DAC\_Init()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Init (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel,  }\item[{\mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} $\ast$}]{D\+A\+C\+\_\+\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+Initializes the D\+AC peripheral according to the specified parameters in the D\+A\+C\+\_\+\+Init\+Struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+{\em D\+A\+C\+\_\+\+Init\+Struct} & pointer to a \mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} structure that contains the configuration information for the specified D\+AC channel. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_gad06b4230d2b17d1d13f41dce4c782461}\label{group___d_a_c___exported___functions_gad06b4230d2b17d1d13f41dce4c782461}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_SetChannel1Data@{DAC\_SetChannel1Data}}
+\index{DAC\_SetChannel1Data@{DAC\_SetChannel1Data}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_SetChannel1Data()}{DAC\_SetChannel1Data()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Set\+Channel1\+Data (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Align,  }\item[{uint16\+\_\+t}]{Data }\end{DoxyParamCaption})}
+
+
+
+Set the specified data holding register value for D\+AC channel1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Align} & Specifies the data alignment for D\+AC channel1. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Align\+\_\+8b\+\_\+R\+: 8bit right data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+L\+: 12bit left data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+R\+: 12bit right data alignment selected \end{DoxyItemize}
+\\
+\hline
+{\em Data} & \+: Data to be loaded in the selected data holding register. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga44e12006ec186791378d132da8541552}\label{group___d_a_c___exported___functions_ga44e12006ec186791378d132da8541552}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_SetChannel2Data@{DAC\_SetChannel2Data}}
+\index{DAC\_SetChannel2Data@{DAC\_SetChannel2Data}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_SetChannel2Data()}{DAC\_SetChannel2Data()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Set\+Channel2\+Data (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Align,  }\item[{uint16\+\_\+t}]{Data }\end{DoxyParamCaption})}
+
+
+
+Set the specified data holding register value for D\+AC channel2. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Align} & Specifies the data alignment for D\+AC channel2. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Align\+\_\+8b\+\_\+R\+: 8bit right data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+L\+: 12bit left data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+R\+: 12bit right data alignment selected \end{DoxyItemize}
+\\
+\hline
+{\em Data} & \+: Data to be loaded in the selected data holding register. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga4ca2cfdf56ab35a23f2517f23d7fbb24}\label{group___d_a_c___exported___functions_ga4ca2cfdf56ab35a23f2517f23d7fbb24}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_SetDualChannelData@{DAC\_SetDualChannelData}}
+\index{DAC\_SetDualChannelData@{DAC\_SetDualChannelData}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_SetDualChannelData()}{DAC\_SetDualChannelData()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Set\+Dual\+Channel\+Data (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Align,  }\item[{uint16\+\_\+t}]{Data2,  }\item[{uint16\+\_\+t}]{Data1 }\end{DoxyParamCaption})}
+
+
+
+Set the specified data holding register value for dual channel D\+AC. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Align} & Specifies the data alignment for dual channel D\+AC. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Align\+\_\+8b\+\_\+R\+: 8bit right data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+L\+: 12bit left data alignment selected \item D\+A\+C\+\_\+\+Align\+\_\+12b\+\_\+R\+: 12bit right data alignment selected \end{DoxyItemize}
+\\
+\hline
+{\em Data2} & Data for D\+AC Channel2 to be loaded in the selected data holding register. \\
+\hline
+{\em Data1} & Data for D\+AC Channel1 to be loaded in the selected data holding register. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_ga46f9f7f6b9520a86e300fe966afe5fb3}\label{group___d_a_c___exported___functions_ga46f9f7f6b9520a86e300fe966afe5fb3}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_SoftwareTriggerCmd@{DAC\_SoftwareTriggerCmd}}
+\index{DAC\_SoftwareTriggerCmd@{DAC\_SoftwareTriggerCmd}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_SoftwareTriggerCmd()}{DAC\_SoftwareTriggerCmd()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Software\+Trigger\+Cmd (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel,  }\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the selected D\+AC channel software trigger. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+{\em New\+State} & new state of the selected D\+AC channel software trigger. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_gadfc270974d54cb5fa5f92556015c4046}\label{group___d_a_c___exported___functions_gadfc270974d54cb5fa5f92556015c4046}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_StructInit@{DAC\_StructInit}}
+\index{DAC\_StructInit@{DAC\_StructInit}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_StructInit()}{DAC\_StructInit()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Struct\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} $\ast$}]{D\+A\+C\+\_\+\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+Fills each D\+A\+C\+\_\+\+Init\+Struct member with its default value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Init\+Struct} & \+: pointer to a \mbox{\hyperlink{struct_d_a_c___init_type_def}{D\+A\+C\+\_\+\+Init\+Type\+Def}} structure which will be initialized. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___d_a_c___exported___functions_gabd51ae6880821d4dcd923969ec19a19e}\label{group___d_a_c___exported___functions_gabd51ae6880821d4dcd923969ec19a19e}} 
+\index{DAC\_Exported\_Functions@{DAC\_Exported\_Functions}!DAC\_WaveGenerationCmd@{DAC\_WaveGenerationCmd}}
+\index{DAC\_WaveGenerationCmd@{DAC\_WaveGenerationCmd}!DAC\_Exported\_Functions@{DAC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{DAC\_WaveGenerationCmd()}{DAC\_WaveGenerationCmd()}}
+{\footnotesize\ttfamily void D\+A\+C\+\_\+\+Wave\+Generation\+Cmd (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Channel,  }\item[{uint32\+\_\+t}]{D\+A\+C\+\_\+\+Wave,  }\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the selected D\+AC channel wave generation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\+A\+C\+\_\+\+Channel} & the selected D\+AC channel. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Channel\+\_\+1\+: D\+AC Channel1 selected \item D\+A\+C\+\_\+\+Channel\+\_\+2\+: D\+AC Channel2 selected \end{DoxyItemize}
+\\
+\hline
+{\em D\+A\+C\+\_\+\+Wave} & Specifies the wave type to enable or disable. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item D\+A\+C\+\_\+\+Wave\+\_\+\+Noise\+: noise wave generation \item D\+A\+C\+\_\+\+Wave\+\_\+\+Triangle\+: triangle wave generation \end{DoxyItemize}
+\\
+\hline
+{\em New\+State} & new state of the selected D\+AC channel wave generation. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

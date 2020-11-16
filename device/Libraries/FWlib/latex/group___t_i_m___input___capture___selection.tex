@@ -1,0 +1,51 @@
+\hypertarget{group___t_i_m___input___capture___selection}{}\doxysection{T\+I\+M\+\_\+\+Input\+\_\+\+Capture\+\_\+\+Selection}
+\label{group___t_i_m___input___capture___selection}\index{TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga3d38876044457b7faefe951d367ac8c3}{T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+Direct\+TI}}~((uint16\+\_\+t)0x0001)
+\item 
+\#define \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga2289b684133ac0b81ddfcd860d01b144}{T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+Indirect\+TI}}~((uint16\+\_\+t)0x0002)
+\item 
+\#define \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga2cd464e97ffd6ea3208ec65672f9a373}{T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+T\+RC}}~((uint16\+\_\+t)0x0003)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+I\+C\+\_\+\+S\+E\+L\+E\+C\+T\+I\+ON}(S\+E\+L\+E\+C\+T\+I\+ON)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___t_i_m___input___capture___selection_ga623d8592109f4702829ae7fc3806bcb8}\label{group___t_i_m___input___capture___selection_ga623d8592109f4702829ae7fc3806bcb8}} 
+\index{TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}!IS\_TIM\_IC\_SELECTION@{IS\_TIM\_IC\_SELECTION}}
+\index{IS\_TIM\_IC\_SELECTION@{IS\_TIM\_IC\_SELECTION}!TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_IC\_SELECTION}{IS\_TIM\_IC\_SELECTION}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+I\+C\+\_\+\+S\+E\+L\+E\+C\+T\+I\+ON(\begin{DoxyParamCaption}\item[{}]{S\+E\+L\+E\+C\+T\+I\+ON }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                        (((SELECTION) == \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga3d38876044457b7faefe951d367ac8c3}{TIM\_ICSelection\_DirectTI}}) || \(\backslash\)}
+\DoxyCodeLine{                                        ((SELECTION) == \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga2289b684133ac0b81ddfcd860d01b144}{TIM\_ICSelection\_IndirectTI}}) || \(\backslash\)}
+\DoxyCodeLine{                                        ((SELECTION) == \mbox{\hyperlink{group___t_i_m___input___capture___selection_ga2cd464e97ffd6ea3208ec65672f9a373}{TIM\_ICSelection\_TRC}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___t_i_m___input___capture___selection_ga3d38876044457b7faefe951d367ac8c3}\label{group___t_i_m___input___capture___selection_ga3d38876044457b7faefe951d367ac8c3}} 
+\index{TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}!TIM\_ICSelection\_DirectTI@{TIM\_ICSelection\_DirectTI}}
+\index{TIM\_ICSelection\_DirectTI@{TIM\_ICSelection\_DirectTI}!TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}}
+\doxysubsubsection{\texorpdfstring{TIM\_ICSelection\_DirectTI}{TIM\_ICSelection\_DirectTI}}
+{\footnotesize\ttfamily \#define T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+Direct\+TI~((uint16\+\_\+t)0x0001)}
+
+T\+IM Input 1, 2, 3 or 4 is selected to be connected to I\+C1, I\+C2, I\+C3 or I\+C4, respectively \mbox{\Hypertarget{group___t_i_m___input___capture___selection_ga2289b684133ac0b81ddfcd860d01b144}\label{group___t_i_m___input___capture___selection_ga2289b684133ac0b81ddfcd860d01b144}} 
+\index{TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}!TIM\_ICSelection\_IndirectTI@{TIM\_ICSelection\_IndirectTI}}
+\index{TIM\_ICSelection\_IndirectTI@{TIM\_ICSelection\_IndirectTI}!TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}}
+\doxysubsubsection{\texorpdfstring{TIM\_ICSelection\_IndirectTI}{TIM\_ICSelection\_IndirectTI}}
+{\footnotesize\ttfamily \#define T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+Indirect\+TI~((uint16\+\_\+t)0x0002)}
+
+T\+IM Input 1, 2, 3 or 4 is selected to be connected to I\+C2, I\+C1, I\+C4 or I\+C3, respectively. \mbox{\Hypertarget{group___t_i_m___input___capture___selection_ga2cd464e97ffd6ea3208ec65672f9a373}\label{group___t_i_m___input___capture___selection_ga2cd464e97ffd6ea3208ec65672f9a373}} 
+\index{TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}!TIM\_ICSelection\_TRC@{TIM\_ICSelection\_TRC}}
+\index{TIM\_ICSelection\_TRC@{TIM\_ICSelection\_TRC}!TIM\_Input\_Capture\_Selection@{TIM\_Input\_Capture\_Selection}}
+\doxysubsubsection{\texorpdfstring{TIM\_ICSelection\_TRC}{TIM\_ICSelection\_TRC}}
+{\footnotesize\ttfamily \#define T\+I\+M\+\_\+\+I\+C\+Selection\+\_\+\+T\+RC~((uint16\+\_\+t)0x0003)}
+
+T\+IM Input 1, 2, 3 or 4 is selected to be connected to T\+RC. 

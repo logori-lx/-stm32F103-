@@ -1,0 +1,41 @@
+\hypertarget{group___clock__source__to__output__on___m_c_o__pin}{}\doxysection{Clock\+\_\+source\+\_\+to\+\_\+output\+\_\+on\+\_\+\+M\+C\+O\+\_\+pin}
+\label{group___clock__source__to__output__on___m_c_o__pin}\index{Clock\_source\_to\_output\_on\_MCO\_pin@{Clock\_source\_to\_output\_on\_MCO\_pin}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_ga1f39ff9f5606d3ad56e221d253be17d3}\label{group___clock__source__to__output__on___m_c_o__pin_ga1f39ff9f5606d3ad56e221d253be17d3}} 
+\#define {\bfseries R\+C\+C\+\_\+\+M\+C\+O\+\_\+\+No\+Clock}~((uint8\+\_\+t)0x00)
+\item 
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_gab766ad89492ffe915de3438aaa96891b}\label{group___clock__source__to__output__on___m_c_o__pin_gab766ad89492ffe915de3438aaa96891b}} 
+\#define {\bfseries R\+C\+C\+\_\+\+M\+C\+O\+\_\+\+S\+Y\+S\+C\+LK}~((uint8\+\_\+t)0x04)
+\item 
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_ga7206cdf03826781dc4fb1b094475d744}\label{group___clock__source__to__output__on___m_c_o__pin_ga7206cdf03826781dc4fb1b094475d744}} 
+\#define {\bfseries R\+C\+C\+\_\+\+M\+C\+O\+\_\+\+H\+SI}~((uint8\+\_\+t)0x05)
+\item 
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_ga8bd64bbefd2a725a0cfe2f2902dd9b0f}\label{group___clock__source__to__output__on___m_c_o__pin_ga8bd64bbefd2a725a0cfe2f2902dd9b0f}} 
+\#define {\bfseries R\+C\+C\+\_\+\+M\+C\+O\+\_\+\+H\+SE}~((uint8\+\_\+t)0x06)
+\item 
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_ga1ce4233675bd7bdcb0220ed10ee7d8be}\label{group___clock__source__to__output__on___m_c_o__pin_ga1ce4233675bd7bdcb0220ed10ee7d8be}} 
+\#define {\bfseries R\+C\+C\+\_\+\+M\+C\+O\+\_\+\+P\+L\+L\+C\+L\+K\+\_\+\+Div2}~((uint8\+\_\+t)0x07)
+\item 
+\#define {\bfseries I\+S\+\_\+\+R\+C\+C\+\_\+\+M\+CO}(M\+CO)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___clock__source__to__output__on___m_c_o__pin_ga0c2d4d6aa8881e01b8c06d8816284b73}\label{group___clock__source__to__output__on___m_c_o__pin_ga0c2d4d6aa8881e01b8c06d8816284b73}} 
+\index{Clock\_source\_to\_output\_on\_MCO\_pin@{Clock\_source\_to\_output\_on\_MCO\_pin}!IS\_RCC\_MCO@{IS\_RCC\_MCO}}
+\index{IS\_RCC\_MCO@{IS\_RCC\_MCO}!Clock\_source\_to\_output\_on\_MCO\_pin@{Clock\_source\_to\_output\_on\_MCO\_pin}}
+\doxysubsubsection{\texorpdfstring{IS\_RCC\_MCO}{IS\_RCC\_MCO}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+R\+C\+C\+\_\+\+M\+CO(\begin{DoxyParamCaption}\item[{}]{M\+CO }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                          (((MCO) == RCC\_MCO\_NoClock) || ((MCO) == RCC\_MCO\_HSI) || \(\backslash\)}
+\DoxyCodeLine{                          ((MCO) == RCC\_MCO\_SYSCLK)  || ((MCO) == RCC\_MCO\_HSE) || \(\backslash\)}
+\DoxyCodeLine{                          ((MCO) == RCC\_MCO\_PLLCLK\_Div2))}
+
+\end{DoxyCode}

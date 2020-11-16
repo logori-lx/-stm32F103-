@@ -1,0 +1,35 @@
+\hypertarget{group___f_s_m_c___memory___type}{}\doxysection{F\+S\+M\+C\+\_\+\+Memory\+\_\+\+Type}
+\label{group___f_s_m_c___memory___type}\index{FSMC\_Memory\_Type@{FSMC\_Memory\_Type}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___f_s_m_c___memory___type_ga8a24e8da42e67dcf6fb2f43659aa49cf}\label{group___f_s_m_c___memory___type_ga8a24e8da42e67dcf6fb2f43659aa49cf}} 
+\#define {\bfseries F\+S\+M\+C\+\_\+\+Memory\+Type\+\_\+\+S\+R\+AM}~((uint32\+\_\+t)0x00000000)
+\item 
+\mbox{\Hypertarget{group___f_s_m_c___memory___type_gae3e680998b2fee8d56222634f5268a75}\label{group___f_s_m_c___memory___type_gae3e680998b2fee8d56222634f5268a75}} 
+\#define {\bfseries F\+S\+M\+C\+\_\+\+Memory\+Type\+\_\+\+P\+S\+R\+AM}~((uint32\+\_\+t)0x00000004)
+\item 
+\mbox{\Hypertarget{group___f_s_m_c___memory___type_ga8b9390abe7c281947c550bf4365649e5}\label{group___f_s_m_c___memory___type_ga8b9390abe7c281947c550bf4365649e5}} 
+\#define {\bfseries F\+S\+M\+C\+\_\+\+Memory\+Type\+\_\+\+N\+OR}~((uint32\+\_\+t)0x00000008)
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+M\+E\+M\+O\+RY}(M\+E\+M\+O\+RY)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___f_s_m_c___memory___type_ga255cd500e141f4ac024cf5f896921233}\label{group___f_s_m_c___memory___type_ga255cd500e141f4ac024cf5f896921233}} 
+\index{FSMC\_Memory\_Type@{FSMC\_Memory\_Type}!IS\_FSMC\_MEMORY@{IS\_FSMC\_MEMORY}}
+\index{IS\_FSMC\_MEMORY@{IS\_FSMC\_MEMORY}!FSMC\_Memory\_Type@{FSMC\_Memory\_Type}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_MEMORY}{IS\_FSMC\_MEMORY}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+M\+E\+M\+O\+RY(\begin{DoxyParamCaption}\item[{}]{M\+E\+M\+O\+RY }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                (((MEMORY) == FSMC\_MemoryType\_SRAM) || \(\backslash\)}
+\DoxyCodeLine{                                ((MEMORY) == FSMC\_MemoryType\_PSRAM)|| \(\backslash\)}
+\DoxyCodeLine{                                ((MEMORY) == FSMC\_MemoryType\_NOR))}
+
+\end{DoxyCode}

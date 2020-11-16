@@ -1,0 +1,68 @@
+\hypertarget{group___t_i_m___channel}{}\doxysection{T\+I\+M\+\_\+\+Channel}
+\label{group___t_i_m___channel}\index{TIM\_Channel@{TIM\_Channel}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___t_i_m___channel_ga69ea7f558f02c63dd1082d784d2449bd}\label{group___t_i_m___channel_ga69ea7f558f02c63dd1082d784d2449bd}} 
+\#define {\bfseries T\+I\+M\+\_\+\+Channel\+\_\+1}~((uint16\+\_\+t)0x0000)
+\item 
+\mbox{\Hypertarget{group___t_i_m___channel_ga03d7da8269a87a560f68985b4bd80931}\label{group___t_i_m___channel_ga03d7da8269a87a560f68985b4bd80931}} 
+\#define {\bfseries T\+I\+M\+\_\+\+Channel\+\_\+2}~((uint16\+\_\+t)0x0004)
+\item 
+\mbox{\Hypertarget{group___t_i_m___channel_ga012711b19e8c91f6f352801a3dc0bcc9}\label{group___t_i_m___channel_ga012711b19e8c91f6f352801a3dc0bcc9}} 
+\#define {\bfseries T\+I\+M\+\_\+\+Channel\+\_\+3}~((uint16\+\_\+t)0x0008)
+\item 
+\mbox{\Hypertarget{group___t_i_m___channel_ga7414888c40d066af235bc1f80b99bd9d}\label{group___t_i_m___channel_ga7414888c40d066af235bc1f80b99bd9d}} 
+\#define {\bfseries T\+I\+M\+\_\+\+Channel\+\_\+4}~((uint16\+\_\+t)0x000C)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+C\+H\+A\+N\+N\+EL}(C\+H\+A\+N\+N\+EL)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+P\+W\+M\+I\+\_\+\+C\+H\+A\+N\+N\+EL}(C\+H\+A\+N\+N\+EL)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+C\+O\+M\+P\+L\+E\+M\+E\+N\+T\+A\+R\+Y\+\_\+\+C\+H\+A\+N\+N\+EL}(C\+H\+A\+N\+N\+EL)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___t_i_m___channel_gae9721e3731e5fd983c83a9c1d32ef03d}\label{group___t_i_m___channel_gae9721e3731e5fd983c83a9c1d32ef03d}} 
+\index{TIM\_Channel@{TIM\_Channel}!IS\_TIM\_CHANNEL@{IS\_TIM\_CHANNEL}}
+\index{IS\_TIM\_CHANNEL@{IS\_TIM\_CHANNEL}!TIM\_Channel@{TIM\_Channel}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_CHANNEL}{IS\_TIM\_CHANNEL}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+C\+H\+A\+N\+N\+EL(\begin{DoxyParamCaption}\item[{}]{C\+H\+A\+N\+N\+EL }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                 (((CHANNEL) == TIM\_Channel\_1) || \(\backslash\)}
+\DoxyCodeLine{                                 ((CHANNEL) == TIM\_Channel\_2) || \(\backslash\)}
+\DoxyCodeLine{                                 ((CHANNEL) == TIM\_Channel\_3) || \(\backslash\)}
+\DoxyCodeLine{                                 ((CHANNEL) == TIM\_Channel\_4))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___t_i_m___channel_ga6f44459b7dfc4138bbc2c3795311c48c}\label{group___t_i_m___channel_ga6f44459b7dfc4138bbc2c3795311c48c}} 
+\index{TIM\_Channel@{TIM\_Channel}!IS\_TIM\_COMPLEMENTARY\_CHANNEL@{IS\_TIM\_COMPLEMENTARY\_CHANNEL}}
+\index{IS\_TIM\_COMPLEMENTARY\_CHANNEL@{IS\_TIM\_COMPLEMENTARY\_CHANNEL}!TIM\_Channel@{TIM\_Channel}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_COMPLEMENTARY\_CHANNEL}{IS\_TIM\_COMPLEMENTARY\_CHANNEL}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+C\+O\+M\+P\+L\+E\+M\+E\+N\+T\+A\+R\+Y\+\_\+\+C\+H\+A\+N\+N\+EL(\begin{DoxyParamCaption}\item[{}]{C\+H\+A\+N\+N\+EL }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                               (((CHANNEL) == TIM\_Channel\_1) || \(\backslash\)}
+\DoxyCodeLine{                                               ((CHANNEL) == TIM\_Channel\_2) || \(\backslash\)}
+\DoxyCodeLine{                                               ((CHANNEL) == TIM\_Channel\_3))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___t_i_m___channel_gacbf272b7a14f63b38bdbf18577835dce}\label{group___t_i_m___channel_gacbf272b7a14f63b38bdbf18577835dce}} 
+\index{TIM\_Channel@{TIM\_Channel}!IS\_TIM\_PWMI\_CHANNEL@{IS\_TIM\_PWMI\_CHANNEL}}
+\index{IS\_TIM\_PWMI\_CHANNEL@{IS\_TIM\_PWMI\_CHANNEL}!TIM\_Channel@{TIM\_Channel}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_PWMI\_CHANNEL}{IS\_TIM\_PWMI\_CHANNEL}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+P\+W\+M\+I\+\_\+\+C\+H\+A\+N\+N\+EL(\begin{DoxyParamCaption}\item[{}]{C\+H\+A\+N\+N\+EL }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                      (((CHANNEL) == TIM\_Channel\_1) || \(\backslash\)}
+\DoxyCodeLine{                                      ((CHANNEL) == TIM\_Channel\_2))}
+
+\end{DoxyCode}

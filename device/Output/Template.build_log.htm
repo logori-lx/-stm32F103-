@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMSTM.DLL V1.66.0.0
+Target DLL:      CMSIS_AGDI.dll V1.25.20.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hp\Desktop\文档\课设\成功例子\Project\RVMDK（uv5）\iSO-STM32.uvprojx
+Project File Date:  11/12/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'WF-ESP8266'
+compiling bsp_led.c...
+..\..\User\led\bsp_led.c(3): warning:  #177-D: function "LED_G_GPIO_Config" was declared but never referenced
+  static void LED_G_GPIO_Config(void)
+..\..\User\led\bsp_led.c(17): warning:  #177-D: function "LED_R_GPIO_Config" was declared but never referenced
+  static void LED_R_GPIO_Config(void)
+..\..\User\led\bsp_led.c: 2 warnings, 0 errors
+compiling user.c...
+compiling bsp_esp8266.c...
+..\..\User\dealData\dealData.h(10): warning:  #1295-D: Deprecated declaration sendStartStatus - give arg types
+  void sendStartStatus();
+..\..\User\ESP8266\bsp_esp8266.c: 1 warning, 0 errors
+compiling main.c...
+..\..\User\dealData\dealData.h(10): warning:  #1295-D: Deprecated declaration sendStartStatus - give arg types
+  void sendStartStatus();
+..\..\User\main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=18536 RO-data=336 RW-data=88 ZI-data=3552  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\hp\Desktop\文档\课设\成功例子\Project\RVMDK（uv5）\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

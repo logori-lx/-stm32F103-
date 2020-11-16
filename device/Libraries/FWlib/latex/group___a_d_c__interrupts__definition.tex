@@ -1,0 +1,37 @@
+\hypertarget{group___a_d_c__interrupts__definition}{}\doxysection{A\+D\+C\+\_\+interrupts\+\_\+definition}
+\label{group___a_d_c__interrupts__definition}\index{ADC\_interrupts\_definition@{ADC\_interrupts\_definition}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___a_d_c__interrupts__definition_ga0ad335d835f54415194d448019569e00}\label{group___a_d_c__interrupts__definition_ga0ad335d835f54415194d448019569e00}} 
+\#define {\bfseries A\+D\+C\+\_\+\+I\+T\+\_\+\+E\+OC}~((uint16\+\_\+t)0x0220)
+\item 
+\mbox{\Hypertarget{group___a_d_c__interrupts__definition_ga2f5c7f9900c24250a0c6ccaa7cbca946}\label{group___a_d_c__interrupts__definition_ga2f5c7f9900c24250a0c6ccaa7cbca946}} 
+\#define {\bfseries A\+D\+C\+\_\+\+I\+T\+\_\+\+A\+WD}~((uint16\+\_\+t)0x0140)
+\item 
+\mbox{\Hypertarget{group___a_d_c__interrupts__definition_gad439fc0cd69706704d47aeabfeddb631}\label{group___a_d_c__interrupts__definition_gad439fc0cd69706704d47aeabfeddb631}} 
+\#define {\bfseries A\+D\+C\+\_\+\+I\+T\+\_\+\+J\+E\+OC}~((uint16\+\_\+t)0x0480)
+\item 
+\mbox{\Hypertarget{group___a_d_c__interrupts__definition_gaf5f8d35930becff402eeb8220641432f}\label{group___a_d_c__interrupts__definition_gaf5f8d35930becff402eeb8220641432f}} 
+\#define {\bfseries I\+S\+\_\+\+A\+D\+C\+\_\+\+IT}(IT)~((((IT) \& (uint16\+\_\+t)0x\+F81F) == 0x00) \&\& ((IT) != 0x00))
+\item 
+\#define {\bfseries I\+S\+\_\+\+A\+D\+C\+\_\+\+G\+E\+T\+\_\+\+IT}(IT)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___a_d_c__interrupts__definition_gacae69f04de1a0033f065864d868c006e}\label{group___a_d_c__interrupts__definition_gacae69f04de1a0033f065864d868c006e}} 
+\index{ADC\_interrupts\_definition@{ADC\_interrupts\_definition}!IS\_ADC\_GET\_IT@{IS\_ADC\_GET\_IT}}
+\index{IS\_ADC\_GET\_IT@{IS\_ADC\_GET\_IT}!ADC\_interrupts\_definition@{ADC\_interrupts\_definition}}
+\doxysubsubsection{\texorpdfstring{IS\_ADC\_GET\_IT}{IS\_ADC\_GET\_IT}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+A\+D\+C\+\_\+\+G\+E\+T\+\_\+\+IT(\begin{DoxyParamCaption}\item[{}]{IT }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                           (((IT) == ADC\_IT\_EOC) || ((IT) == ADC\_IT\_AWD) || \(\backslash\)}
+\DoxyCodeLine{                           ((IT) == ADC\_IT\_JEOC))}
+
+\end{DoxyCode}

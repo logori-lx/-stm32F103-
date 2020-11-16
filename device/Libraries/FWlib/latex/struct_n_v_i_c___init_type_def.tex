@@ -1,0 +1,59 @@
+\hypertarget{struct_n_v_i_c___init_type_def}{}\doxysection{N\+V\+I\+C\+\_\+\+Init\+Type\+Def Struct Reference}
+\label{struct_n_v_i_c___init_type_def}\index{NVIC\_InitTypeDef@{NVIC\_InitTypeDef}}
+
+
+N\+V\+IC Init Structure definition ~\newline
+  
+
+
+
+
+{\ttfamily \#include $<$misc.\+h$>$}
+
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_n_v_i_c___init_type_def_afa04cf6e559bb690bdd9fcb7e3d93dcf}{N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_n_v_i_c___init_type_def_aa3fe262c30188404a6e31f922c5ae513}{N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Preemption\+Priority}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_n_v_i_c___init_type_def_aecc22a002244e3f1f9448dbe46c1db4b}{N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Sub\+Priority}}
+\item 
+Functional\+State \mbox{\hyperlink{struct_n_v_i_c___init_type_def_acb23fabb995fa4980c768825f12f5815}{N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Cmd}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+N\+V\+IC Init Structure definition ~\newline
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_n_v_i_c___init_type_def_afa04cf6e559bb690bdd9fcb7e3d93dcf}\label{struct_n_v_i_c___init_type_def_afa04cf6e559bb690bdd9fcb7e3d93dcf}} 
+\index{NVIC\_InitTypeDef@{NVIC\_InitTypeDef}!NVIC\_IRQChannel@{NVIC\_IRQChannel}}
+\index{NVIC\_IRQChannel@{NVIC\_IRQChannel}!NVIC\_InitTypeDef@{NVIC\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{NVIC\_IRQChannel}{NVIC\_IRQChannel}}
+{\footnotesize\ttfamily uint8\+\_\+t N\+V\+I\+C\+\_\+\+Init\+Type\+Def\+::\+N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel}
+
+Specifies the I\+RQ channel to be enabled or disabled. This parameter can be a value of I\+R\+Qn\+\_\+\+Type (For the complete S\+T\+M32 Devices I\+RQ Channels list, please refer to stm32f10x.\+h file) \mbox{\Hypertarget{struct_n_v_i_c___init_type_def_acb23fabb995fa4980c768825f12f5815}\label{struct_n_v_i_c___init_type_def_acb23fabb995fa4980c768825f12f5815}} 
+\index{NVIC\_InitTypeDef@{NVIC\_InitTypeDef}!NVIC\_IRQChannelCmd@{NVIC\_IRQChannelCmd}}
+\index{NVIC\_IRQChannelCmd@{NVIC\_IRQChannelCmd}!NVIC\_InitTypeDef@{NVIC\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{NVIC\_IRQChannelCmd}{NVIC\_IRQChannelCmd}}
+{\footnotesize\ttfamily Functional\+State N\+V\+I\+C\+\_\+\+Init\+Type\+Def\+::\+N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Cmd}
+
+Specifies whether the I\+RQ channel defined in N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel will be enabled or disabled. This parameter can be set either to E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE \mbox{\Hypertarget{struct_n_v_i_c___init_type_def_aa3fe262c30188404a6e31f922c5ae513}\label{struct_n_v_i_c___init_type_def_aa3fe262c30188404a6e31f922c5ae513}} 
+\index{NVIC\_InitTypeDef@{NVIC\_InitTypeDef}!NVIC\_IRQChannelPreemptionPriority@{NVIC\_IRQChannelPreemptionPriority}}
+\index{NVIC\_IRQChannelPreemptionPriority@{NVIC\_IRQChannelPreemptionPriority}!NVIC\_InitTypeDef@{NVIC\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{NVIC\_IRQChannelPreemptionPriority}{NVIC\_IRQChannelPreemptionPriority}}
+{\footnotesize\ttfamily uint8\+\_\+t N\+V\+I\+C\+\_\+\+Init\+Type\+Def\+::\+N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Preemption\+Priority}
+
+Specifies the pre-\/emption priority for the I\+RQ channel specified in N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel. This parameter can be a value between 0 and 15 as described in the table \mbox{\hyperlink{group___n_v_i_c___priority___table}{N\+V\+I\+C\+\_\+\+Priority\+\_\+\+Table}} \mbox{\Hypertarget{struct_n_v_i_c___init_type_def_aecc22a002244e3f1f9448dbe46c1db4b}\label{struct_n_v_i_c___init_type_def_aecc22a002244e3f1f9448dbe46c1db4b}} 
+\index{NVIC\_InitTypeDef@{NVIC\_InitTypeDef}!NVIC\_IRQChannelSubPriority@{NVIC\_IRQChannelSubPriority}}
+\index{NVIC\_IRQChannelSubPriority@{NVIC\_IRQChannelSubPriority}!NVIC\_InitTypeDef@{NVIC\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{NVIC\_IRQChannelSubPriority}{NVIC\_IRQChannelSubPriority}}
+{\footnotesize\ttfamily uint8\+\_\+t N\+V\+I\+C\+\_\+\+Init\+Type\+Def\+::\+N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel\+Sub\+Priority}
+
+Specifies the subpriority level for the I\+RQ channel specified in N\+V\+I\+C\+\_\+\+I\+R\+Q\+Channel. This parameter can be a value between 0 and 15 as described in the table \mbox{\hyperlink{group___n_v_i_c___priority___table}{N\+V\+I\+C\+\_\+\+Priority\+\_\+\+Table}} 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+inc/\mbox{\hyperlink{misc_8h}{misc.\+h}}\end{DoxyCompactItemize}

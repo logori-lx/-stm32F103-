@@ -1,0 +1,37 @@
+\hypertarget{group___c_e_c__interrupts__definition}{}\doxysection{C\+E\+C\+\_\+interrupts\+\_\+definition}
+\label{group___c_e_c__interrupts__definition}\index{CEC\_interrupts\_definition@{CEC\_interrupts\_definition}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___c_e_c__interrupts__definition_ga25f97d245f29e04a2d2bbc840389e6b5}\label{group___c_e_c__interrupts__definition_ga25f97d245f29e04a2d2bbc840389e6b5}} 
+\#define {\bfseries C\+E\+C\+\_\+\+I\+T\+\_\+\+T\+E\+RR}~C\+E\+C\+\_\+\+C\+S\+R\+\_\+\+T\+E\+RR
+\item 
+\mbox{\Hypertarget{group___c_e_c__interrupts__definition_ga12b00fb3989f9ce9f2f7fc0094c0747d}\label{group___c_e_c__interrupts__definition_ga12b00fb3989f9ce9f2f7fc0094c0747d}} 
+\#define {\bfseries C\+E\+C\+\_\+\+I\+T\+\_\+\+T\+B\+T\+RF}~C\+E\+C\+\_\+\+C\+S\+R\+\_\+\+T\+B\+T\+RF
+\item 
+\mbox{\Hypertarget{group___c_e_c__interrupts__definition_gac015ebba728a69eeb84be1bc56a58ac0}\label{group___c_e_c__interrupts__definition_gac015ebba728a69eeb84be1bc56a58ac0}} 
+\#define {\bfseries C\+E\+C\+\_\+\+I\+T\+\_\+\+R\+E\+RR}~C\+E\+C\+\_\+\+C\+S\+R\+\_\+\+R\+E\+RR
+\item 
+\mbox{\Hypertarget{group___c_e_c__interrupts__definition_ga42834131bf077a878e84470ae98f1bb4}\label{group___c_e_c__interrupts__definition_ga42834131bf077a878e84470ae98f1bb4}} 
+\#define {\bfseries C\+E\+C\+\_\+\+I\+T\+\_\+\+R\+B\+TF}~C\+E\+C\+\_\+\+C\+S\+R\+\_\+\+R\+B\+TF
+\item 
+\#define {\bfseries I\+S\+\_\+\+C\+E\+C\+\_\+\+G\+E\+T\+\_\+\+IT}(IT)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___c_e_c__interrupts__definition_ga7f553a4a3346c676101d81a024a9cba8}\label{group___c_e_c__interrupts__definition_ga7f553a4a3346c676101d81a024a9cba8}} 
+\index{CEC\_interrupts\_definition@{CEC\_interrupts\_definition}!IS\_CEC\_GET\_IT@{IS\_CEC\_GET\_IT}}
+\index{IS\_CEC\_GET\_IT@{IS\_CEC\_GET\_IT}!CEC\_interrupts\_definition@{CEC\_interrupts\_definition}}
+\doxysubsubsection{\texorpdfstring{IS\_CEC\_GET\_IT}{IS\_CEC\_GET\_IT}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+C\+E\+C\+\_\+\+G\+E\+T\+\_\+\+IT(\begin{DoxyParamCaption}\item[{}]{IT }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                           (((IT) == CEC\_IT\_TERR) || ((IT) == CEC\_IT\_TBTRF) || \(\backslash\)}
+\DoxyCodeLine{                           ((IT) == CEC\_IT\_RERR) || ((IT) == CEC\_IT\_RBTF))}
+
+\end{DoxyCode}

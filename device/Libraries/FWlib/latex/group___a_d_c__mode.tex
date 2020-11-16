@@ -1,0 +1,63 @@
+\hypertarget{group___a_d_c__mode}{}\doxysection{A\+D\+C\+\_\+mode}
+\label{group___a_d_c__mode}\index{ADC\_mode@{ADC\_mode}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga2754d3a35559dc10e3d6a7d920e83432}\label{group___a_d_c__mode_ga2754d3a35559dc10e3d6a7d920e83432}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Independent}~((uint32\+\_\+t)0x00000000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga487d5f0c506291c5d37b53198396fd1c}\label{group___a_d_c__mode_ga487d5f0c506291c5d37b53198396fd1c}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Reg\+Injec\+Simult}~((uint32\+\_\+t)0x00010000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_gae3d5fbf93f60d75534364bf9db78f632}\label{group___a_d_c__mode_gae3d5fbf93f60d75534364bf9db78f632}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Reg\+Simult\+\_\+\+Alter\+Trig}~((uint32\+\_\+t)0x00020000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga2fc8a737f7b2375309bccbcb7fdbbfeb}\label{group___a_d_c__mode_ga2fc8a737f7b2375309bccbcb7fdbbfeb}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Injec\+Simult\+\_\+\+Fast\+Interl}~((uint32\+\_\+t)0x00030000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_gacb72230cb48a577907729d426be69c22}\label{group___a_d_c__mode_gacb72230cb48a577907729d426be69c22}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Injec\+Simult\+\_\+\+Slow\+Interl}~((uint32\+\_\+t)0x00040000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga2339cc471aaf2db02daa4aeb49e9f0d9}\label{group___a_d_c__mode_ga2339cc471aaf2db02daa4aeb49e9f0d9}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Injec\+Simult}~((uint32\+\_\+t)0x00050000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga71298f7453c2b4392a9c622328b3c93d}\label{group___a_d_c__mode_ga71298f7453c2b4392a9c622328b3c93d}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Reg\+Simult}~((uint32\+\_\+t)0x00060000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga843ecdd53625e2088e91819e43106a7a}\label{group___a_d_c__mode_ga843ecdd53625e2088e91819e43106a7a}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Fast\+Interl}~((uint32\+\_\+t)0x00070000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga8b81e27e98dbc3d1e31452dbad167cd5}\label{group___a_d_c__mode_ga8b81e27e98dbc3d1e31452dbad167cd5}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Slow\+Interl}~((uint32\+\_\+t)0x00080000)
+\item 
+\mbox{\Hypertarget{group___a_d_c__mode_ga5595f12dc485e301ba3bad0e165586c1}\label{group___a_d_c__mode_ga5595f12dc485e301ba3bad0e165586c1}} 
+\#define {\bfseries A\+D\+C\+\_\+\+Mode\+\_\+\+Alter\+Trig}~((uint32\+\_\+t)0x00090000)
+\item 
+\#define {\bfseries I\+S\+\_\+\+A\+D\+C\+\_\+\+M\+O\+DE}(M\+O\+DE)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___a_d_c__mode_ga4abf4c7de28a42d7b124c9e403a6e537}\label{group___a_d_c__mode_ga4abf4c7de28a42d7b124c9e403a6e537}} 
+\index{ADC\_mode@{ADC\_mode}!IS\_ADC\_MODE@{IS\_ADC\_MODE}}
+\index{IS\_ADC\_MODE@{IS\_ADC\_MODE}!ADC\_mode@{ADC\_mode}}
+\doxysubsubsection{\texorpdfstring{IS\_ADC\_MODE}{IS\_ADC\_MODE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+A\+D\+C\+\_\+\+M\+O\+DE(\begin{DoxyParamCaption}\item[{}]{M\+O\+DE }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                           (((MODE) == ADC\_Mode\_Independent) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_RegInjecSimult) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_RegSimult\_AlterTrig) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_InjecSimult\_FastInterl) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_InjecSimult\_SlowInterl) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_InjecSimult) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_RegSimult) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_FastInterl) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_SlowInterl) || \(\backslash\)}
+\DoxyCodeLine{                           ((MODE) == ADC\_Mode\_AlterTrig))}
+
+\end{DoxyCode}

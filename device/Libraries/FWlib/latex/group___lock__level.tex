@@ -1,0 +1,39 @@
+\hypertarget{group___lock__level}{}\doxysection{Lock\+\_\+level}
+\label{group___lock__level}\index{Lock\_level@{Lock\_level}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___lock__level_ga84d318c62d3e5dfe7082610d03e11f2f}\label{group___lock__level_ga84d318c62d3e5dfe7082610d03e11f2f}} 
+\#define {\bfseries T\+I\+M\+\_\+\+L\+O\+C\+K\+Level\+\_\+\+O\+FF}~((uint16\+\_\+t)0x0000)
+\item 
+\mbox{\Hypertarget{group___lock__level_ga7e4326fc7756ebf5e9eb9776c2734aea}\label{group___lock__level_ga7e4326fc7756ebf5e9eb9776c2734aea}} 
+\#define {\bfseries T\+I\+M\+\_\+\+L\+O\+C\+K\+Level\+\_\+1}~((uint16\+\_\+t)0x0100)
+\item 
+\mbox{\Hypertarget{group___lock__level_ga91bdf218f766e6a10b7a7df407250d25}\label{group___lock__level_ga91bdf218f766e6a10b7a7df407250d25}} 
+\#define {\bfseries T\+I\+M\+\_\+\+L\+O\+C\+K\+Level\+\_\+2}~((uint16\+\_\+t)0x0200)
+\item 
+\mbox{\Hypertarget{group___lock__level_gaa0a0c1ffd9dc582d6571780c1747920b}\label{group___lock__level_gaa0a0c1ffd9dc582d6571780c1747920b}} 
+\#define {\bfseries T\+I\+M\+\_\+\+L\+O\+C\+K\+Level\+\_\+3}~((uint16\+\_\+t)0x0300)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+L\+O\+C\+K\+\_\+\+L\+E\+V\+EL}(L\+E\+V\+EL)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___lock__level_gacf5e70717f6d13af301331bb043f5d48}\label{group___lock__level_gacf5e70717f6d13af301331bb043f5d48}} 
+\index{Lock\_level@{Lock\_level}!IS\_TIM\_LOCK\_LEVEL@{IS\_TIM\_LOCK\_LEVEL}}
+\index{IS\_TIM\_LOCK\_LEVEL@{IS\_TIM\_LOCK\_LEVEL}!Lock\_level@{Lock\_level}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_LOCK\_LEVEL}{IS\_TIM\_LOCK\_LEVEL}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+L\+O\+C\+K\+\_\+\+L\+E\+V\+EL(\begin{DoxyParamCaption}\item[{}]{L\+E\+V\+EL }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                  (((LEVEL) == TIM\_LOCKLevel\_OFF) || \(\backslash\)}
+\DoxyCodeLine{                                  ((LEVEL) == TIM\_LOCKLevel\_1) || \(\backslash\)}
+\DoxyCodeLine{                                  ((LEVEL) == TIM\_LOCKLevel\_2) || \(\backslash\)}
+\DoxyCodeLine{                                  ((LEVEL) == TIM\_LOCKLevel\_3))}
+
+\end{DoxyCode}

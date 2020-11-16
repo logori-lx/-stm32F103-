@@ -1,0 +1,84 @@
+\hypertarget{group___f_s_m_c___exported___constants}{}\doxysection{F\+S\+M\+C\+\_\+\+Exported\+\_\+\+Constants}
+\label{group___f_s_m_c___exported___constants}\index{FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}}
+\doxysubsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___f_s_m_c___n_o_r_s_r_a_m___bank}{F\+S\+M\+C\+\_\+\+N\+O\+R\+S\+R\+A\+M\+\_\+\+Bank}}
+\item 
+\mbox{\hyperlink{group___f_s_m_c___n_a_n_d___bank}{F\+S\+M\+C\+\_\+\+N\+A\+N\+D\+\_\+\+Bank}}
+\item 
+\mbox{\hyperlink{group___f_s_m_c___p_c_c_a_r_d___bank}{F\+S\+M\+C\+\_\+\+P\+C\+C\+A\+R\+D\+\_\+\+Bank}}
+\item 
+\mbox{\hyperlink{group___n_o_r___s_r_a_m___controller}{N\+O\+R\+\_\+\+S\+R\+A\+M\+\_\+\+Controller}}
+\item 
+\mbox{\hyperlink{group___n_a_n_d___p_c_c_a_r_d___controller}{N\+A\+N\+D\+\_\+\+P\+C\+C\+A\+R\+D\+\_\+\+Controller}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+N\+O\+R\+S\+R\+A\+M\+\_\+\+B\+A\+NK}(B\+A\+NK)
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+N\+A\+N\+D\+\_\+\+B\+A\+NK}(B\+A\+NK)
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+G\+E\+T\+F\+L\+A\+G\+\_\+\+B\+A\+NK}(B\+A\+NK)
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+I\+T\+\_\+\+B\+A\+NK}(B\+A\+NK)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___f_s_m_c___exported___constants_ga884e28a365a738ad8a3199ee279a1f77}\label{group___f_s_m_c___exported___constants_ga884e28a365a738ad8a3199ee279a1f77}} 
+\index{FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}!IS\_FSMC\_GETFLAG\_BANK@{IS\_FSMC\_GETFLAG\_BANK}}
+\index{IS\_FSMC\_GETFLAG\_BANK@{IS\_FSMC\_GETFLAG\_BANK}!FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_GETFLAG\_BANK}{IS\_FSMC\_GETFLAG\_BANK}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+G\+E\+T\+F\+L\+A\+G\+\_\+\+B\+A\+NK(\begin{DoxyParamCaption}\item[{}]{B\+A\+NK }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                    (((BANK) == FSMC\_Bank2\_NAND) || \(\backslash\)}
+\DoxyCodeLine{                                    ((BANK) == FSMC\_Bank3\_NAND) || \(\backslash\)}
+\DoxyCodeLine{                                    ((BANK) == FSMC\_Bank4\_PCCARD))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___f_s_m_c___exported___constants_gaca216ea0c184b78f23df15296a10bac0}\label{group___f_s_m_c___exported___constants_gaca216ea0c184b78f23df15296a10bac0}} 
+\index{FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}!IS\_FSMC\_IT\_BANK@{IS\_FSMC\_IT\_BANK}}
+\index{IS\_FSMC\_IT\_BANK@{IS\_FSMC\_IT\_BANK}!FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_IT\_BANK}{IS\_FSMC\_IT\_BANK}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+I\+T\+\_\+\+B\+A\+NK(\begin{DoxyParamCaption}\item[{}]{B\+A\+NK }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                               (((BANK) == FSMC\_Bank2\_NAND) || \(\backslash\)}
+\DoxyCodeLine{                               ((BANK) == FSMC\_Bank3\_NAND) || \(\backslash\)}
+\DoxyCodeLine{                               ((BANK) == FSMC\_Bank4\_PCCARD))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___f_s_m_c___exported___constants_ga725bada099197f15f49dc0c5be00e19b}\label{group___f_s_m_c___exported___constants_ga725bada099197f15f49dc0c5be00e19b}} 
+\index{FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}!IS\_FSMC\_NAND\_BANK@{IS\_FSMC\_NAND\_BANK}}
+\index{IS\_FSMC\_NAND\_BANK@{IS\_FSMC\_NAND\_BANK}!FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_NAND\_BANK}{IS\_FSMC\_NAND\_BANK}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+N\+A\+N\+D\+\_\+\+B\+A\+NK(\begin{DoxyParamCaption}\item[{}]{B\+A\+NK }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                 (((BANK) == FSMC\_Bank2\_NAND) || \(\backslash\)}
+\DoxyCodeLine{                                 ((BANK) == FSMC\_Bank3\_NAND))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___f_s_m_c___exported___constants_ga3e3bed3dd83d38e63f11ac4cbcb87304}\label{group___f_s_m_c___exported___constants_ga3e3bed3dd83d38e63f11ac4cbcb87304}} 
+\index{FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}!IS\_FSMC\_NORSRAM\_BANK@{IS\_FSMC\_NORSRAM\_BANK}}
+\index{IS\_FSMC\_NORSRAM\_BANK@{IS\_FSMC\_NORSRAM\_BANK}!FSMC\_Exported\_Constants@{FSMC\_Exported\_Constants}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_NORSRAM\_BANK}{IS\_FSMC\_NORSRAM\_BANK}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+N\+O\+R\+S\+R\+A\+M\+\_\+\+B\+A\+NK(\begin{DoxyParamCaption}\item[{}]{B\+A\+NK }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                    (((BANK) == FSMC\_Bank1\_NORSRAM1) || \(\backslash\)}
+\DoxyCodeLine{                                    ((BANK) == FSMC\_Bank1\_NORSRAM2) || \(\backslash\)}
+\DoxyCodeLine{                                    ((BANK) == FSMC\_Bank1\_NORSRAM3) || \(\backslash\)}
+\DoxyCodeLine{                                    ((BANK) == FSMC\_Bank1\_NORSRAM4))}
+
+\end{DoxyCode}

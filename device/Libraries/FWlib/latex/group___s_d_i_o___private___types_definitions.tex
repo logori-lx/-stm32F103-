@@ -1,0 +1,95 @@
+\hypertarget{group___s_d_i_o___private___types_definitions}{}\doxysection{S\+D\+I\+O\+\_\+\+Private\+\_\+\+Types\+Definitions}
+\label{group___s_d_i_o___private___types_definitions}\index{SDIO\_Private\_TypesDefinitions@{SDIO\_Private\_TypesDefinitions}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gabf07aced03df5f46d57cea1d4f56d1e3}\label{group___s_d_i_o___private___types_definitions_gabf07aced03df5f46d57cea1d4f56d1e3}} 
+\#define {\bfseries S\+D\+I\+O\+\_\+\+O\+F\+F\+S\+ET}~(S\+D\+I\+O\+\_\+\+B\+A\+SE -\/ P\+E\+R\+I\+P\+H\+\_\+\+B\+A\+SE)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gac5d642be874338519fdec175204ca8ed}\label{group___s_d_i_o___private___types_definitions_gac5d642be874338519fdec175204ca8ed}} 
+\#define {\bfseries C\+L\+K\+C\+R\+\_\+\+O\+F\+F\+S\+ET}~(S\+D\+I\+O\+\_\+\+O\+F\+F\+S\+ET + 0x04)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga6ad1da47f9d84c54eb620b9231ebec86}\label{group___s_d_i_o___private___types_definitions_ga6ad1da47f9d84c54eb620b9231ebec86}} 
+\#define {\bfseries C\+L\+K\+E\+N\+\_\+\+Bit\+Number}~0x08
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gabfb5772b9b734972b576309f7ca8bf92}\label{group___s_d_i_o___private___types_definitions_gabfb5772b9b734972b576309f7ca8bf92}} 
+\#define {\bfseries C\+L\+K\+C\+R\+\_\+\+C\+L\+K\+E\+N\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (C\+L\+K\+C\+R\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (C\+L\+K\+E\+N\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gaf12d26702ce7a88d2a3dae87f000b75e}\label{group___s_d_i_o___private___types_definitions_gaf12d26702ce7a88d2a3dae87f000b75e}} 
+\#define {\bfseries C\+M\+D\+\_\+\+O\+F\+F\+S\+ET}~(S\+D\+I\+O\+\_\+\+O\+F\+F\+S\+ET + 0x0C)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gaf88f03a42d76974b55dfb8bda65ade97}\label{group___s_d_i_o___private___types_definitions_gaf88f03a42d76974b55dfb8bda65ade97}} 
+\#define {\bfseries S\+D\+I\+O\+S\+U\+S\+P\+E\+N\+D\+\_\+\+Bit\+Number}~0x0B
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga931e48aa282e2a937308f57f807e0781}\label{group___s_d_i_o___private___types_definitions_ga931e48aa282e2a937308f57f807e0781}} 
+\#define {\bfseries C\+M\+D\+\_\+\+S\+D\+I\+O\+S\+U\+S\+P\+E\+N\+D\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (C\+M\+D\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (S\+D\+I\+O\+S\+U\+S\+P\+E\+N\+D\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga1d1112c7b804791a0fffd8b317085aeb}\label{group___s_d_i_o___private___types_definitions_ga1d1112c7b804791a0fffd8b317085aeb}} 
+\#define {\bfseries E\+N\+C\+M\+D\+C\+O\+M\+P\+L\+\_\+\+Bit\+Number}~0x0C
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gade06098d1616639ce5f1b70675280b7c}\label{group___s_d_i_o___private___types_definitions_gade06098d1616639ce5f1b70675280b7c}} 
+\#define {\bfseries C\+M\+D\+\_\+\+E\+N\+C\+M\+D\+C\+O\+M\+P\+L\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (C\+M\+D\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (E\+N\+C\+M\+D\+C\+O\+M\+P\+L\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gab6d83a7ccd4a0d9ea9a09fec263fb25f}\label{group___s_d_i_o___private___types_definitions_gab6d83a7ccd4a0d9ea9a09fec263fb25f}} 
+\#define {\bfseries N\+I\+E\+N\+\_\+\+Bit\+Number}~0x0D
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga08623f1d053677de8b20a6f5f5090edd}\label{group___s_d_i_o___private___types_definitions_ga08623f1d053677de8b20a6f5f5090edd}} 
+\#define {\bfseries C\+M\+D\+\_\+\+N\+I\+E\+N\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (C\+M\+D\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (N\+I\+E\+N\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gabd4fd3bb700b879f843ccc867db1832e}\label{group___s_d_i_o___private___types_definitions_gabd4fd3bb700b879f843ccc867db1832e}} 
+\#define {\bfseries A\+T\+A\+C\+M\+D\+\_\+\+Bit\+Number}~0x0E
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gabb7e537f931b6fdd3b49e826f2e19d7c}\label{group___s_d_i_o___private___types_definitions_gabb7e537f931b6fdd3b49e826f2e19d7c}} 
+\#define {\bfseries C\+M\+D\+\_\+\+A\+T\+A\+C\+M\+D\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (C\+M\+D\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (A\+T\+A\+C\+M\+D\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga948c1382c4cfd3af3e406c4d0cdd4240}\label{group___s_d_i_o___private___types_definitions_ga948c1382c4cfd3af3e406c4d0cdd4240}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET}~(S\+D\+I\+O\+\_\+\+O\+F\+F\+S\+ET + 0x2C)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gab2af311e327213503f0dbf3d013b7944}\label{group___s_d_i_o___private___types_definitions_gab2af311e327213503f0dbf3d013b7944}} 
+\#define {\bfseries D\+M\+A\+E\+N\+\_\+\+Bit\+Number}~0x03
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga43f7336d4f955c6cf1f676ccbc043fe9}\label{group___s_d_i_o___private___types_definitions_ga43f7336d4f955c6cf1f676ccbc043fe9}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+D\+M\+A\+E\+N\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (D\+M\+A\+E\+N\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga773045c51d3e8daee0c181517c44a2df}\label{group___s_d_i_o___private___types_definitions_ga773045c51d3e8daee0c181517c44a2df}} 
+\#define {\bfseries R\+W\+S\+T\+A\+R\+T\+\_\+\+Bit\+Number}~0x08
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gac776c39dfac0e1ed007217133e1145c3}\label{group___s_d_i_o___private___types_definitions_gac776c39dfac0e1ed007217133e1145c3}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+R\+W\+S\+T\+A\+R\+T\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (R\+W\+S\+T\+A\+R\+T\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gae8c0654ad5cba23281bcfa77ef19b9cf}\label{group___s_d_i_o___private___types_definitions_gae8c0654ad5cba23281bcfa77ef19b9cf}} 
+\#define {\bfseries R\+W\+S\+T\+O\+P\+\_\+\+Bit\+Number}~0x09
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga678da1db835676b0fb1976cf3408e2d1}\label{group___s_d_i_o___private___types_definitions_ga678da1db835676b0fb1976cf3408e2d1}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+R\+W\+S\+T\+O\+P\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (R\+W\+S\+T\+O\+P\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gad7b722671f65e79d1be2899b643278ad}\label{group___s_d_i_o___private___types_definitions_gad7b722671f65e79d1be2899b643278ad}} 
+\#define {\bfseries R\+W\+M\+O\+D\+\_\+\+Bit\+Number}~0x0A
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gad34bfe8650534ce24320ae83886c91e3}\label{group___s_d_i_o___private___types_definitions_gad34bfe8650534ce24320ae83886c91e3}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+R\+W\+M\+O\+D\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (R\+W\+M\+O\+D\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga37f3e1612e0dae8160be978ebfa54301}\label{group___s_d_i_o___private___types_definitions_ga37f3e1612e0dae8160be978ebfa54301}} 
+\#define {\bfseries S\+D\+I\+O\+E\+N\+\_\+\+Bit\+Number}~0x0B
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga894f7da62b89ddd9f4b79d066056a3c7}\label{group___s_d_i_o___private___types_definitions_ga894f7da62b89ddd9f4b79d066056a3c7}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+S\+D\+I\+O\+E\+N\+\_\+\+BB}~(P\+E\+R\+I\+P\+H\+\_\+\+B\+B\+\_\+\+B\+A\+SE + (D\+C\+T\+R\+L\+\_\+\+O\+F\+F\+S\+ET $\ast$ 32) + (S\+D\+I\+O\+E\+N\+\_\+\+Bit\+Number $\ast$ 4))
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_gac8d10dd1e49ca9e8a6954146654e9a01}\label{group___s_d_i_o___private___types_definitions_gac8d10dd1e49ca9e8a6954146654e9a01}} 
+\#define {\bfseries C\+L\+K\+C\+R\+\_\+\+C\+L\+E\+A\+R\+\_\+\+M\+A\+SK}~((uint32\+\_\+t)0x\+F\+F\+F\+F8100)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga7e6ec7be68d0fbb8fb4e3725cca9a05c}\label{group___s_d_i_o___private___types_definitions_ga7e6ec7be68d0fbb8fb4e3725cca9a05c}} 
+\#define {\bfseries P\+W\+R\+\_\+\+P\+W\+R\+C\+T\+R\+L\+\_\+\+M\+A\+SK}~((uint32\+\_\+t)0x\+F\+F\+F\+F\+F\+F\+FC)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga9e9fc7810b95805aeeb760bbdd87fa9b}\label{group___s_d_i_o___private___types_definitions_ga9e9fc7810b95805aeeb760bbdd87fa9b}} 
+\#define {\bfseries D\+C\+T\+R\+L\+\_\+\+C\+L\+E\+A\+R\+\_\+\+M\+A\+SK}~((uint32\+\_\+t)0x\+F\+F\+F\+F\+F\+F08)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga2325d77090e44221b07f8fba5bc9217e}\label{group___s_d_i_o___private___types_definitions_ga2325d77090e44221b07f8fba5bc9217e}} 
+\#define {\bfseries C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+M\+A\+SK}~((uint32\+\_\+t)0x\+F\+F\+F\+F\+F800)
+\item 
+\mbox{\Hypertarget{group___s_d_i_o___private___types_definitions_ga4285ce49b005e3d03ddf9fdc491c4d70}\label{group___s_d_i_o___private___types_definitions_ga4285ce49b005e3d03ddf9fdc491c4d70}} 
+\#define {\bfseries S\+D\+I\+O\+\_\+\+R\+E\+S\+P\+\_\+\+A\+D\+DR}~((uint32\+\_\+t)(S\+D\+I\+O\+\_\+\+B\+A\+SE + 0x14))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}

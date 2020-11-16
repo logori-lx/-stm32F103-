@@ -1,0 +1,55 @@
+\hypertarget{group___t_i_m___trigger___output___source}{}\doxysection{T\+I\+M\+\_\+\+Trigger\+\_\+\+Output\+\_\+\+Source}
+\label{group___t_i_m___trigger___output___source}\index{TIM\_Trigger\_Output\_Source@{TIM\_Trigger\_Output\_Source}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_gafb039ed39279a4d1134b234797b1cdfb}\label{group___t_i_m___trigger___output___source_gafb039ed39279a4d1134b234797b1cdfb}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+Reset}~((uint16\+\_\+t)0x0000)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_gaa228ba6cfafcf676e33e3ee35cb7fc1c}\label{group___t_i_m___trigger___output___source_gaa228ba6cfafcf676e33e3ee35cb7fc1c}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+Enable}~((uint16\+\_\+t)0x0010)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_ga8a73c717070ab1a0ef90326780f20aef}\label{group___t_i_m___trigger___output___source_ga8a73c717070ab1a0ef90326780f20aef}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+Update}~((uint16\+\_\+t)0x0020)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_ga2d044b472c021f5484b9f71eb9ca69f1}\label{group___t_i_m___trigger___output___source_ga2d044b472c021f5484b9f71eb9ca69f1}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+O\+C1}~((uint16\+\_\+t)0x0030)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_ga7cb70a2a026dc02136bdbb3dcc483d6c}\label{group___t_i_m___trigger___output___source_ga7cb70a2a026dc02136bdbb3dcc483d6c}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+O\+C1\+Ref}~((uint16\+\_\+t)0x0040)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_ga059f9f6cf96c833180eb3cdf5e56bd04}\label{group___t_i_m___trigger___output___source_ga059f9f6cf96c833180eb3cdf5e56bd04}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+O\+C2\+Ref}~((uint16\+\_\+t)0x0050)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_ga40943bc1c3f22b983c683cbf0e87a218}\label{group___t_i_m___trigger___output___source_ga40943bc1c3f22b983c683cbf0e87a218}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+O\+C3\+Ref}~((uint16\+\_\+t)0x0060)
+\item 
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_gafc81561599199912d613c65f760919bc}\label{group___t_i_m___trigger___output___source_gafc81561599199912d613c65f760919bc}} 
+\#define {\bfseries T\+I\+M\+\_\+\+T\+R\+G\+O\+Source\+\_\+\+O\+C4\+Ref}~((uint16\+\_\+t)0x0070)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+T\+R\+G\+O\+\_\+\+S\+O\+U\+R\+CE}(S\+O\+U\+R\+CE)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___t_i_m___trigger___output___source_gadf4e4e0422bd9c108b184884781d2d46}\label{group___t_i_m___trigger___output___source_gadf4e4e0422bd9c108b184884781d2d46}} 
+\index{TIM\_Trigger\_Output\_Source@{TIM\_Trigger\_Output\_Source}!IS\_TIM\_TRGO\_SOURCE@{IS\_TIM\_TRGO\_SOURCE}}
+\index{IS\_TIM\_TRGO\_SOURCE@{IS\_TIM\_TRGO\_SOURCE}!TIM\_Trigger\_Output\_Source@{TIM\_Trigger\_Output\_Source}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_TRGO\_SOURCE}{IS\_TIM\_TRGO\_SOURCE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+T\+R\+G\+O\+\_\+\+S\+O\+U\+R\+CE(\begin{DoxyParamCaption}\item[{}]{S\+O\+U\+R\+CE }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                    (((SOURCE) == TIM\_TRGOSource\_Reset) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_Enable) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_Update) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_OC1) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_OC1Ref) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_OC2Ref) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_OC3Ref) || \(\backslash\)}
+\DoxyCodeLine{                                    ((SOURCE) == TIM\_TRGOSource\_OC4Ref))}
+
+\end{DoxyCode}

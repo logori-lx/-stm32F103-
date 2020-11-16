@@ -1,0 +1,73 @@
+\hypertarget{group___r_t_c__interrupts__flags}{}\doxysection{R\+T\+C\+\_\+interrupts\+\_\+flags}
+\label{group___r_t_c__interrupts__flags}\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga203dcbb991497e4d0e6722815f6db942}{R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+T\+O\+FF}}~((uint16\+\_\+t)0x0020)
+\item 
+\#define \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga78c4245996bef8d5f39226b6e37ed9c0}{R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+SF}}~((uint16\+\_\+t)0x0008)
+\item 
+\#define \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga4e321e359b914d7ed10eed985f8b4811}{R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+OW}}~((uint16\+\_\+t)0x0004)
+\item 
+\#define \mbox{\hyperlink{group___r_t_c__interrupts__flags_gaed4375a7ea5a147f83c6cf4bfa805caf}{R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+A\+LR}}~((uint16\+\_\+t)0x0002)
+\item 
+\#define \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga8babb2c823c2097bf4a4ef0c20ef7367}{R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+S\+EC}}~((uint16\+\_\+t)0x0001)
+\item 
+\mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga5f8a9327a258f16f29703fa3e3cc8af7}\label{group___r_t_c__interrupts__flags_ga5f8a9327a258f16f29703fa3e3cc8af7}} 
+\#define {\bfseries I\+S\+\_\+\+R\+T\+C\+\_\+\+C\+L\+E\+A\+R\+\_\+\+F\+L\+AG}(F\+L\+AG)~((((F\+L\+AG) \& (uint16\+\_\+t)0x\+F\+F\+F0) == 0x00) \&\& ((F\+L\+AG) != 0x00))
+\item 
+\#define {\bfseries I\+S\+\_\+\+R\+T\+C\+\_\+\+G\+E\+T\+\_\+\+F\+L\+AG}(F\+L\+AG)
+\item 
+\mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga483b9ec67246cbfb2874c5a85f0cb4d8}\label{group___r_t_c__interrupts__flags_ga483b9ec67246cbfb2874c5a85f0cb4d8}} 
+\#define {\bfseries I\+S\+\_\+\+R\+T\+C\+\_\+\+P\+R\+E\+S\+C\+A\+L\+ER}(P\+R\+E\+S\+C\+A\+L\+ER)~((P\+R\+E\+S\+C\+A\+L\+ER) $<$= 0x\+F\+F\+F\+FF)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga2126725a0d48f1c40f42566e249620ef}\label{group___r_t_c__interrupts__flags_ga2126725a0d48f1c40f42566e249620ef}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!IS\_RTC\_GET\_FLAG@{IS\_RTC\_GET\_FLAG}}
+\index{IS\_RTC\_GET\_FLAG@{IS\_RTC\_GET\_FLAG}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{IS\_RTC\_GET\_FLAG}{IS\_RTC\_GET\_FLAG}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+R\+T\+C\+\_\+\+G\+E\+T\+\_\+\+F\+L\+AG(\begin{DoxyParamCaption}\item[{}]{F\+L\+AG }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                               (((FLAG) == \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga203dcbb991497e4d0e6722815f6db942}{RTC\_FLAG\_RTOFF}}) || ((FLAG) == \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga78c4245996bef8d5f39226b6e37ed9c0}{RTC\_FLAG\_RSF}}) || \(\backslash\)}
+\DoxyCodeLine{                               ((FLAG) == \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga4e321e359b914d7ed10eed985f8b4811}{RTC\_FLAG\_OW}}) || ((FLAG) == \mbox{\hyperlink{group___r_t_c__interrupts__flags_gaed4375a7ea5a147f83c6cf4bfa805caf}{RTC\_FLAG\_ALR}}) || \(\backslash\)}
+\DoxyCodeLine{                               ((FLAG) == \mbox{\hyperlink{group___r_t_c__interrupts__flags_ga8babb2c823c2097bf4a4ef0c20ef7367}{RTC\_FLAG\_SEC}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___r_t_c__interrupts__flags_gaed4375a7ea5a147f83c6cf4bfa805caf}\label{group___r_t_c__interrupts__flags_gaed4375a7ea5a147f83c6cf4bfa805caf}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!RTC\_FLAG\_ALR@{RTC\_FLAG\_ALR}}
+\index{RTC\_FLAG\_ALR@{RTC\_FLAG\_ALR}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{RTC\_FLAG\_ALR}{RTC\_FLAG\_ALR}}
+{\footnotesize\ttfamily \#define R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+A\+LR~((uint16\+\_\+t)0x0002)}
+
+Alarm flag \mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga4e321e359b914d7ed10eed985f8b4811}\label{group___r_t_c__interrupts__flags_ga4e321e359b914d7ed10eed985f8b4811}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!RTC\_FLAG\_OW@{RTC\_FLAG\_OW}}
+\index{RTC\_FLAG\_OW@{RTC\_FLAG\_OW}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{RTC\_FLAG\_OW}{RTC\_FLAG\_OW}}
+{\footnotesize\ttfamily \#define R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+OW~((uint16\+\_\+t)0x0004)}
+
+Overflow flag \mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga78c4245996bef8d5f39226b6e37ed9c0}\label{group___r_t_c__interrupts__flags_ga78c4245996bef8d5f39226b6e37ed9c0}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!RTC\_FLAG\_RSF@{RTC\_FLAG\_RSF}}
+\index{RTC\_FLAG\_RSF@{RTC\_FLAG\_RSF}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{RTC\_FLAG\_RSF}{RTC\_FLAG\_RSF}}
+{\footnotesize\ttfamily \#define R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+SF~((uint16\+\_\+t)0x0008)}
+
+Registers Synchronized flag \mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga203dcbb991497e4d0e6722815f6db942}\label{group___r_t_c__interrupts__flags_ga203dcbb991497e4d0e6722815f6db942}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!RTC\_FLAG\_RTOFF@{RTC\_FLAG\_RTOFF}}
+\index{RTC\_FLAG\_RTOFF@{RTC\_FLAG\_RTOFF}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{RTC\_FLAG\_RTOFF}{RTC\_FLAG\_RTOFF}}
+{\footnotesize\ttfamily \#define R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+T\+O\+FF~((uint16\+\_\+t)0x0020)}
+
+R\+TC Operation O\+FF flag \mbox{\Hypertarget{group___r_t_c__interrupts__flags_ga8babb2c823c2097bf4a4ef0c20ef7367}\label{group___r_t_c__interrupts__flags_ga8babb2c823c2097bf4a4ef0c20ef7367}} 
+\index{RTC\_interrupts\_flags@{RTC\_interrupts\_flags}!RTC\_FLAG\_SEC@{RTC\_FLAG\_SEC}}
+\index{RTC\_FLAG\_SEC@{RTC\_FLAG\_SEC}!RTC\_interrupts\_flags@{RTC\_interrupts\_flags}}
+\doxysubsubsection{\texorpdfstring{RTC\_FLAG\_SEC}{RTC\_FLAG\_SEC}}
+{\footnotesize\ttfamily \#define R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+S\+EC~((uint16\+\_\+t)0x0001)}
+
+Second flag 

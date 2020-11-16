@@ -1,0 +1,31 @@
+\hypertarget{group___f_s_m_c___wait___timing}{}\doxysection{F\+S\+M\+C\+\_\+\+Wait\+\_\+\+Timing}
+\label{group___f_s_m_c___wait___timing}\index{FSMC\_Wait\_Timing@{FSMC\_Wait\_Timing}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___f_s_m_c___wait___timing_ga62c6855a7cc65b20024085f09cdc65e8}\label{group___f_s_m_c___wait___timing_ga62c6855a7cc65b20024085f09cdc65e8}} 
+\#define {\bfseries F\+S\+M\+C\+\_\+\+Wait\+Signal\+Active\+\_\+\+Before\+Wait\+State}~((uint32\+\_\+t)0x00000000)
+\item 
+\mbox{\Hypertarget{group___f_s_m_c___wait___timing_gae905fc59e5d99091d132d7c221c8b6d4}\label{group___f_s_m_c___wait___timing_gae905fc59e5d99091d132d7c221c8b6d4}} 
+\#define {\bfseries F\+S\+M\+C\+\_\+\+Wait\+Signal\+Active\+\_\+\+During\+Wait\+State}~((uint32\+\_\+t)0x00000800)
+\item 
+\#define {\bfseries I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+W\+A\+I\+T\+\_\+\+S\+I\+G\+N\+A\+L\+\_\+\+A\+C\+T\+I\+VE}(A\+C\+T\+I\+VE)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___f_s_m_c___wait___timing_ga3edb40c756afa8bb78550b7e22ded093}\label{group___f_s_m_c___wait___timing_ga3edb40c756afa8bb78550b7e22ded093}} 
+\index{FSMC\_Wait\_Timing@{FSMC\_Wait\_Timing}!IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE@{IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE}}
+\index{IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE@{IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE}!FSMC\_Wait\_Timing@{FSMC\_Wait\_Timing}}
+\doxysubsubsection{\texorpdfstring{IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE}{IS\_FSMC\_WAIT\_SIGNAL\_ACTIVE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+F\+S\+M\+C\+\_\+\+W\+A\+I\+T\+\_\+\+S\+I\+G\+N\+A\+L\+\_\+\+A\+C\+T\+I\+VE(\begin{DoxyParamCaption}\item[{}]{A\+C\+T\+I\+VE }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                            (((ACTIVE) == FSMC\_WaitSignalActive\_BeforeWaitState) || \(\backslash\)}
+\DoxyCodeLine{                                            ((ACTIVE) == FSMC\_WaitSignalActive\_DuringWaitState))}
+
+\end{DoxyCode}

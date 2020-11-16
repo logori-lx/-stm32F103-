@@ -1,0 +1,31 @@
+\hypertarget{group___s_p_i___slave___select__management}{}\doxysection{S\+P\+I\+\_\+\+Slave\+\_\+\+Select\+\_\+management}
+\label{group___s_p_i___slave___select__management}\index{SPI\_Slave\_Select\_management@{SPI\_Slave\_Select\_management}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___s_p_i___slave___select__management_ga105969ee7eb635414da35b41e942e383}\label{group___s_p_i___slave___select__management_ga105969ee7eb635414da35b41e942e383}} 
+\#define {\bfseries S\+P\+I\+\_\+\+N\+S\+S\+\_\+\+Soft}~((uint16\+\_\+t)0x0200)
+\item 
+\mbox{\Hypertarget{group___s_p_i___slave___select__management_ga07c547459d39fb7a6e0322147a60b74a}\label{group___s_p_i___slave___select__management_ga07c547459d39fb7a6e0322147a60b74a}} 
+\#define {\bfseries S\+P\+I\+\_\+\+N\+S\+S\+\_\+\+Hard}~((uint16\+\_\+t)0x0000)
+\item 
+\#define {\bfseries I\+S\+\_\+\+S\+P\+I\+\_\+\+N\+SS}(N\+SS)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___s_p_i___slave___select__management_gabbeedf42eccef1bae4f88c606fc3b261}\label{group___s_p_i___slave___select__management_gabbeedf42eccef1bae4f88c606fc3b261}} 
+\index{SPI\_Slave\_Select\_management@{SPI\_Slave\_Select\_management}!IS\_SPI\_NSS@{IS\_SPI\_NSS}}
+\index{IS\_SPI\_NSS@{IS\_SPI\_NSS}!SPI\_Slave\_Select\_management@{SPI\_Slave\_Select\_management}}
+\doxysubsubsection{\texorpdfstring{IS\_SPI\_NSS}{IS\_SPI\_NSS}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+S\+P\+I\+\_\+\+N\+SS(\begin{DoxyParamCaption}\item[{}]{N\+SS }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                         (((NSS) == SPI\_NSS\_Soft) || \(\backslash\)}
+\DoxyCodeLine{                         ((NSS) == SPI\_NSS\_Hard))}
+
+\end{DoxyCode}

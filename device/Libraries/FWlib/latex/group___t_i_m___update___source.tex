@@ -1,0 +1,42 @@
+\hypertarget{group___t_i_m___update___source}{}\doxysection{T\+I\+M\+\_\+\+Update\+\_\+\+Source}
+\label{group___t_i_m___update___source}\index{TIM\_Update\_Source@{TIM\_Update\_Source}}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___t_i_m___update___source_ga32c67bc3f8211a2c7b44ee9fe1523875}{T\+I\+M\+\_\+\+Update\+Source\+\_\+\+Global}}~((uint16\+\_\+t)0x0000)
+\item 
+\#define \mbox{\hyperlink{group___t_i_m___update___source_ga6f50423cdb011137ae8cd303ccd2080c}{T\+I\+M\+\_\+\+Update\+Source\+\_\+\+Regular}}~((uint16\+\_\+t)0x0001)
+\item 
+\#define {\bfseries I\+S\+\_\+\+T\+I\+M\+\_\+\+U\+P\+D\+A\+T\+E\+\_\+\+S\+O\+U\+R\+CE}(S\+O\+U\+R\+CE)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{group___t_i_m___update___source_ga7c916798d8f5f4a828afadceb5d38a95}\label{group___t_i_m___update___source_ga7c916798d8f5f4a828afadceb5d38a95}} 
+\index{TIM\_Update\_Source@{TIM\_Update\_Source}!IS\_TIM\_UPDATE\_SOURCE@{IS\_TIM\_UPDATE\_SOURCE}}
+\index{IS\_TIM\_UPDATE\_SOURCE@{IS\_TIM\_UPDATE\_SOURCE}!TIM\_Update\_Source@{TIM\_Update\_Source}}
+\doxysubsubsection{\texorpdfstring{IS\_TIM\_UPDATE\_SOURCE}{IS\_TIM\_UPDATE\_SOURCE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+T\+I\+M\+\_\+\+U\+P\+D\+A\+T\+E\+\_\+\+S\+O\+U\+R\+CE(\begin{DoxyParamCaption}\item[{}]{S\+O\+U\+R\+CE }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{                                      (((SOURCE) == \mbox{\hyperlink{group___t_i_m___update___source_ga32c67bc3f8211a2c7b44ee9fe1523875}{TIM\_UpdateSource\_Global}}) || \(\backslash\)}
+\DoxyCodeLine{                                      ((SOURCE) == \mbox{\hyperlink{group___t_i_m___update___source_ga6f50423cdb011137ae8cd303ccd2080c}{TIM\_UpdateSource\_Regular}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{group___t_i_m___update___source_ga32c67bc3f8211a2c7b44ee9fe1523875}\label{group___t_i_m___update___source_ga32c67bc3f8211a2c7b44ee9fe1523875}} 
+\index{TIM\_Update\_Source@{TIM\_Update\_Source}!TIM\_UpdateSource\_Global@{TIM\_UpdateSource\_Global}}
+\index{TIM\_UpdateSource\_Global@{TIM\_UpdateSource\_Global}!TIM\_Update\_Source@{TIM\_Update\_Source}}
+\doxysubsubsection{\texorpdfstring{TIM\_UpdateSource\_Global}{TIM\_UpdateSource\_Global}}
+{\footnotesize\ttfamily \#define T\+I\+M\+\_\+\+Update\+Source\+\_\+\+Global~((uint16\+\_\+t)0x0000)}
+
+Source of update is the counter overflow/underflow or the setting of UG bit, or an update generation through the slave mode controller. \mbox{\Hypertarget{group___t_i_m___update___source_ga6f50423cdb011137ae8cd303ccd2080c}\label{group___t_i_m___update___source_ga6f50423cdb011137ae8cd303ccd2080c}} 
+\index{TIM\_Update\_Source@{TIM\_Update\_Source}!TIM\_UpdateSource\_Regular@{TIM\_UpdateSource\_Regular}}
+\index{TIM\_UpdateSource\_Regular@{TIM\_UpdateSource\_Regular}!TIM\_Update\_Source@{TIM\_Update\_Source}}
+\doxysubsubsection{\texorpdfstring{TIM\_UpdateSource\_Regular}{TIM\_UpdateSource\_Regular}}
+{\footnotesize\ttfamily \#define T\+I\+M\+\_\+\+Update\+Source\+\_\+\+Regular~((uint16\+\_\+t)0x0001)}
+
+Source of update is counter overflow/underflow. 

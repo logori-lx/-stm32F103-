@@ -1,0 +1,82 @@
+\hypertarget{struct_u_s_a_r_t___init_type_def}{}\doxysection{U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def Struct Reference}
+\label{struct_u_s_a_r_t___init_type_def}\index{USART\_InitTypeDef@{USART\_InitTypeDef}}
+
+
+U\+S\+A\+RT Init Structure definition ~\newline
+  
+
+
+
+
+{\ttfamily \#include $<$stm32f10x\+\_\+usart.\+h$>$}
+
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_a6f763cb0e6044f838ee764ce437997b2}{U\+S\+A\+R\+T\+\_\+\+Baud\+Rate}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_a16d1fb7ccc2b51964f1bcfcbfba6d89d}{U\+S\+A\+R\+T\+\_\+\+Word\+Length}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_ac745bceb79a6c4c2640fd8e8ce6639d6}{U\+S\+A\+R\+T\+\_\+\+Stop\+Bits}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_a5ae66aba755bac37c5cf0dfbf529e2ed}{U\+S\+A\+R\+T\+\_\+\+Parity}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_a7d944d35d7d1fc79a63f249615148584}{U\+S\+A\+R\+T\+\_\+\+Mode}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_u_s_a_r_t___init_type_def_a9996edf3bfd90c36f03b4075969703f5}{U\+S\+A\+R\+T\+\_\+\+Hardware\+Flow\+Control}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+U\+S\+A\+RT Init Structure definition ~\newline
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_a6f763cb0e6044f838ee764ce437997b2}\label{struct_u_s_a_r_t___init_type_def_a6f763cb0e6044f838ee764ce437997b2}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_BaudRate@{USART\_BaudRate}}
+\index{USART\_BaudRate@{USART\_BaudRate}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_BaudRate}{USART\_BaudRate}}
+{\footnotesize\ttfamily uint32\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Baud\+Rate}
+
+This member configures the U\+S\+A\+RT communication baud rate. The baud rate is computed using the following formula\+:
+\begin{DoxyItemize}
+\item Integer\+Divider = ((P\+C\+L\+Kx) / (16 $\ast$ (U\+S\+A\+R\+T\+\_\+\+Init\+Struct-\/$>$U\+S\+A\+R\+T\+\_\+\+Baud\+Rate)))
+\item Fractional\+Divider = ((Integer\+Divider -\/ ((u32) Integer\+Divider)) $\ast$ 16) + 0.\+5 
+\end{DoxyItemize}\mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_a9996edf3bfd90c36f03b4075969703f5}\label{struct_u_s_a_r_t___init_type_def_a9996edf3bfd90c36f03b4075969703f5}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_HardwareFlowControl@{USART\_HardwareFlowControl}}
+\index{USART\_HardwareFlowControl@{USART\_HardwareFlowControl}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_HardwareFlowControl}{USART\_HardwareFlowControl}}
+{\footnotesize\ttfamily uint16\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Hardware\+Flow\+Control}
+
+Specifies wether the hardware flow control mode is enabled or disabled. This parameter can be a value of \mbox{\hyperlink{group___u_s_a_r_t___hardware___flow___control}{U\+S\+A\+R\+T\+\_\+\+Hardware\+\_\+\+Flow\+\_\+\+Control}} \mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_a7d944d35d7d1fc79a63f249615148584}\label{struct_u_s_a_r_t___init_type_def_a7d944d35d7d1fc79a63f249615148584}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_Mode@{USART\_Mode}}
+\index{USART\_Mode@{USART\_Mode}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_Mode}{USART\_Mode}}
+{\footnotesize\ttfamily uint16\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Mode}
+
+Specifies wether the Receive or Transmit mode is enabled or disabled. This parameter can be a value of \mbox{\hyperlink{group___u_s_a_r_t___mode}{U\+S\+A\+R\+T\+\_\+\+Mode}} \mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_a5ae66aba755bac37c5cf0dfbf529e2ed}\label{struct_u_s_a_r_t___init_type_def_a5ae66aba755bac37c5cf0dfbf529e2ed}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_Parity@{USART\_Parity}}
+\index{USART\_Parity@{USART\_Parity}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_Parity}{USART\_Parity}}
+{\footnotesize\ttfamily uint16\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Parity}
+
+Specifies the parity mode. This parameter can be a value of \mbox{\hyperlink{group___u_s_a_r_t___parity}{U\+S\+A\+R\+T\+\_\+\+Parity}} \begin{DoxyNote}{Note}
+When parity is enabled, the computed parity is inserted at the M\+SB position of the transmitted data (9th bit when the word length is set to 9 data bits; 8th bit when the word length is set to 8 data bits). 
+\end{DoxyNote}
+\mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_ac745bceb79a6c4c2640fd8e8ce6639d6}\label{struct_u_s_a_r_t___init_type_def_ac745bceb79a6c4c2640fd8e8ce6639d6}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_StopBits@{USART\_StopBits}}
+\index{USART\_StopBits@{USART\_StopBits}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_StopBits}{USART\_StopBits}}
+{\footnotesize\ttfamily uint16\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Stop\+Bits}
+
+Specifies the number of stop bits transmitted. This parameter can be a value of \mbox{\hyperlink{group___u_s_a_r_t___stop___bits}{U\+S\+A\+R\+T\+\_\+\+Stop\+\_\+\+Bits}} \mbox{\Hypertarget{struct_u_s_a_r_t___init_type_def_a16d1fb7ccc2b51964f1bcfcbfba6d89d}\label{struct_u_s_a_r_t___init_type_def_a16d1fb7ccc2b51964f1bcfcbfba6d89d}} 
+\index{USART\_InitTypeDef@{USART\_InitTypeDef}!USART\_WordLength@{USART\_WordLength}}
+\index{USART\_WordLength@{USART\_WordLength}!USART\_InitTypeDef@{USART\_InitTypeDef}}
+\doxysubsubsection{\texorpdfstring{USART\_WordLength}{USART\_WordLength}}
+{\footnotesize\ttfamily uint16\+\_\+t U\+S\+A\+R\+T\+\_\+\+Init\+Type\+Def\+::\+U\+S\+A\+R\+T\+\_\+\+Word\+Length}
+
+Specifies the number of data bits transmitted or received in a frame. This parameter can be a value of \mbox{\hyperlink{group___u_s_a_r_t___word___length}{U\+S\+A\+R\+T\+\_\+\+Word\+\_\+\+Length}} 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+inc/\mbox{\hyperlink{stm32f10x__usart_8h}{stm32f10x\+\_\+usart.\+h}}\end{DoxyCompactItemize}

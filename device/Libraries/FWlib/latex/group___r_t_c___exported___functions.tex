@@ -1,0 +1,337 @@
+\hypertarget{group___r_t_c___exported___functions}{}\doxysection{R\+T\+C\+\_\+\+Exported\+\_\+\+Functions}
+\label{group___r_t_c___exported___functions}\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_ga175dfe88866234730c1ec40d2221c4f4}{R\+T\+C\+\_\+\+I\+T\+Config}} (uint16\+\_\+t R\+T\+C\+\_\+\+IT, Functional\+State New\+State)
+\begin{DoxyCompactList}\small\item\em Enables or disables the specified R\+TC interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_ga23612d9da2fe057a0cd72c684e5b438a}{R\+T\+C\+\_\+\+Enter\+Config\+Mode}} (void)
+\begin{DoxyCompactList}\small\item\em Enters the R\+TC configuration mode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_ga7585aa6e2dbb497173b2fd03bac0d304}{R\+T\+C\+\_\+\+Exit\+Config\+Mode}} (void)
+\begin{DoxyCompactList}\small\item\em Exits from the R\+TC configuration mode. \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{group___r_t_c___exported___functions_ga6edb19a0ad8414a40610341121c5ea6c}{R\+T\+C\+\_\+\+Get\+Counter}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the R\+TC counter value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gafa81ec17158de1d1a7740eca81b9fb65}{R\+T\+C\+\_\+\+Set\+Counter}} (uint32\+\_\+t Counter\+Value)
+\begin{DoxyCompactList}\small\item\em Sets the R\+TC counter value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gaf76be6071d1ba65b009e0791069e602c}{R\+T\+C\+\_\+\+Set\+Prescaler}} (uint32\+\_\+t Prescaler\+Value)
+\begin{DoxyCompactList}\small\item\em Sets the R\+TC prescaler value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gaec644c636a30ab5e287ba60ffc77132c}{R\+T\+C\+\_\+\+Set\+Alarm}} (uint32\+\_\+t Alarm\+Value)
+\begin{DoxyCompactList}\small\item\em Sets the R\+TC alarm value. \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{group___r_t_c___exported___functions_gaa4f00e0469fedcf6cbf23760e6d801ed}{R\+T\+C\+\_\+\+Get\+Divider}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the R\+TC divider value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gaa0a406ef860d5231748c5f0d82673036}{R\+T\+C\+\_\+\+Wait\+For\+Last\+Task}} (void)
+\begin{DoxyCompactList}\small\item\em Waits until last write operation on R\+TC registers has finished. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gaca4346e0dc15dccc15179786b28450db}{R\+T\+C\+\_\+\+Wait\+For\+Synchro}} (void)
+\begin{DoxyCompactList}\small\item\em Waits until the R\+TC registers (R\+T\+C\+\_\+\+C\+NT, R\+T\+C\+\_\+\+A\+LR and R\+T\+C\+\_\+\+P\+RL) are synchronized with R\+TC A\+PB clock. \end{DoxyCompactList}\item 
+Flag\+Status \mbox{\hyperlink{group___r_t_c___exported___functions_ga21a85e5f846cb4552d5e76420779f3f6}{R\+T\+C\+\_\+\+Get\+Flag\+Status}} (uint16\+\_\+t R\+T\+C\+\_\+\+F\+L\+AG)
+\begin{DoxyCompactList}\small\item\em Checks whether the specified R\+TC flag is set or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_gacefb05730a77ffaa273c1ac3ade1a22f}{R\+T\+C\+\_\+\+Clear\+Flag}} (uint16\+\_\+t R\+T\+C\+\_\+\+F\+L\+AG)
+\begin{DoxyCompactList}\small\item\em Clears the R\+TC\textquotesingle{}s pending flags. \end{DoxyCompactList}\item 
+I\+T\+Status \mbox{\hyperlink{group___r_t_c___exported___functions_ga23274ad8aa28e86d5b0d58eee295db21}{R\+T\+C\+\_\+\+Get\+I\+T\+Status}} (uint16\+\_\+t R\+T\+C\+\_\+\+IT)
+\begin{DoxyCompactList}\small\item\em Checks whether the specified R\+TC interrupt has occurred or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___r_t_c___exported___functions_ga62b9a04d89a11f28db7dcfd50d9ee768}{R\+T\+C\+\_\+\+Clear\+I\+T\+Pending\+Bit}} (uint16\+\_\+t R\+T\+C\+\_\+\+IT)
+\begin{DoxyCompactList}\small\item\em Clears the R\+TC\textquotesingle{}s interrupt pending bits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gacefb05730a77ffaa273c1ac3ade1a22f}\label{group___r_t_c___exported___functions_gacefb05730a77ffaa273c1ac3ade1a22f}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_ClearFlag@{RTC\_ClearFlag}}
+\index{RTC\_ClearFlag@{RTC\_ClearFlag}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_ClearFlag()}{RTC\_ClearFlag()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Clear\+Flag (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{R\+T\+C\+\_\+\+F\+L\+AG }\end{DoxyParamCaption})}
+
+
+
+Clears the R\+TC\textquotesingle{}s pending flags. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em R\+T\+C\+\_\+\+F\+L\+AG} & specifies the flag to clear. This parameter can be any combination of the following values\+: \begin{DoxyItemize}
+\item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+SF\+: Registers Synchronized flag. This flag is cleared only after an A\+PB reset or an A\+PB Clock stop. \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+OW\+: Overflow flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+A\+LR\+: Alarm flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+S\+EC\+: Second flag \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga62b9a04d89a11f28db7dcfd50d9ee768}\label{group___r_t_c___exported___functions_ga62b9a04d89a11f28db7dcfd50d9ee768}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_ClearITPendingBit@{RTC\_ClearITPendingBit}}
+\index{RTC\_ClearITPendingBit@{RTC\_ClearITPendingBit}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_ClearITPendingBit()}{RTC\_ClearITPendingBit()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Clear\+I\+T\+Pending\+Bit (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{R\+T\+C\+\_\+\+IT }\end{DoxyParamCaption})}
+
+
+
+Clears the R\+TC\textquotesingle{}s interrupt pending bits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em R\+T\+C\+\_\+\+IT} & specifies the interrupt pending bit to clear. This parameter can be any combination of the following values\+: \begin{DoxyItemize}
+\item R\+T\+C\+\_\+\+I\+T\+\_\+\+OW\+: Overflow interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+A\+LR\+: Alarm interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+S\+EC\+: Second interrupt \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga23612d9da2fe057a0cd72c684e5b438a}\label{group___r_t_c___exported___functions_ga23612d9da2fe057a0cd72c684e5b438a}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_EnterConfigMode@{RTC\_EnterConfigMode}}
+\index{RTC\_EnterConfigMode@{RTC\_EnterConfigMode}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_EnterConfigMode()}{RTC\_EnterConfigMode()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Enter\+Config\+Mode (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Enters the R\+TC configuration mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga7585aa6e2dbb497173b2fd03bac0d304}\label{group___r_t_c___exported___functions_ga7585aa6e2dbb497173b2fd03bac0d304}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_ExitConfigMode@{RTC\_ExitConfigMode}}
+\index{RTC\_ExitConfigMode@{RTC\_ExitConfigMode}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_ExitConfigMode()}{RTC\_ExitConfigMode()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Exit\+Config\+Mode (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Exits from the R\+TC configuration mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga6edb19a0ad8414a40610341121c5ea6c}\label{group___r_t_c___exported___functions_ga6edb19a0ad8414a40610341121c5ea6c}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_GetCounter@{RTC\_GetCounter}}
+\index{RTC\_GetCounter@{RTC\_GetCounter}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_GetCounter()}{RTC\_GetCounter()}}
+{\footnotesize\ttfamily uint32\+\_\+t R\+T\+C\+\_\+\+Get\+Counter (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Gets the R\+TC counter value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em R\+TC} & counter value. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gaa4f00e0469fedcf6cbf23760e6d801ed}\label{group___r_t_c___exported___functions_gaa4f00e0469fedcf6cbf23760e6d801ed}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_GetDivider@{RTC\_GetDivider}}
+\index{RTC\_GetDivider@{RTC\_GetDivider}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_GetDivider()}{RTC\_GetDivider()}}
+{\footnotesize\ttfamily uint32\+\_\+t R\+T\+C\+\_\+\+Get\+Divider (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Gets the R\+TC divider value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em R\+TC} & Divider value. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga21a85e5f846cb4552d5e76420779f3f6}\label{group___r_t_c___exported___functions_ga21a85e5f846cb4552d5e76420779f3f6}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_GetFlagStatus@{RTC\_GetFlagStatus}}
+\index{RTC\_GetFlagStatus@{RTC\_GetFlagStatus}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_GetFlagStatus()}{RTC\_GetFlagStatus()}}
+{\footnotesize\ttfamily Flag\+Status R\+T\+C\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{R\+T\+C\+\_\+\+F\+L\+AG }\end{DoxyParamCaption})}
+
+
+
+Checks whether the specified R\+TC flag is set or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em R\+T\+C\+\_\+\+F\+L\+AG} & specifies the flag to check. This parameter can be one the following values\+: \begin{DoxyItemize}
+\item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+T\+O\+FF\+: R\+TC Operation O\+FF flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+R\+SF\+: Registers Synchronized flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+OW\+: Overflow flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+A\+LR\+: Alarm flag \item R\+T\+C\+\_\+\+F\+L\+A\+G\+\_\+\+S\+EC\+: Second flag \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em The} & new state of R\+T\+C\+\_\+\+F\+L\+AG (S\+ET or R\+E\+S\+ET). \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga23274ad8aa28e86d5b0d58eee295db21}\label{group___r_t_c___exported___functions_ga23274ad8aa28e86d5b0d58eee295db21}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_GetITStatus@{RTC\_GetITStatus}}
+\index{RTC\_GetITStatus@{RTC\_GetITStatus}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_GetITStatus()}{RTC\_GetITStatus()}}
+{\footnotesize\ttfamily I\+T\+Status R\+T\+C\+\_\+\+Get\+I\+T\+Status (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{R\+T\+C\+\_\+\+IT }\end{DoxyParamCaption})}
+
+
+
+Checks whether the specified R\+TC interrupt has occurred or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em R\+T\+C\+\_\+\+IT} & specifies the R\+TC interrupts sources to check. This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item R\+T\+C\+\_\+\+I\+T\+\_\+\+OW\+: Overflow interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+A\+LR\+: Alarm interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+S\+EC\+: Second interrupt \end{DoxyItemize}
+\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em The} & new state of the R\+T\+C\+\_\+\+IT (S\+ET or R\+E\+S\+ET). \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_ga175dfe88866234730c1ec40d2221c4f4}\label{group___r_t_c___exported___functions_ga175dfe88866234730c1ec40d2221c4f4}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_ITConfig@{RTC\_ITConfig}}
+\index{RTC\_ITConfig@{RTC\_ITConfig}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_ITConfig()}{RTC\_ITConfig()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+I\+T\+Config (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{R\+T\+C\+\_\+\+IT,  }\item[{Functional\+State}]{New\+State }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the specified R\+TC interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em R\+T\+C\+\_\+\+IT} & specifies the R\+TC interrupts sources to be enabled or disabled. This parameter can be any combination of the following values\+: \begin{DoxyItemize}
+\item R\+T\+C\+\_\+\+I\+T\+\_\+\+OW\+: Overflow interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+A\+LR\+: Alarm interrupt \item R\+T\+C\+\_\+\+I\+T\+\_\+\+S\+EC\+: Second interrupt \end{DoxyItemize}
+\\
+\hline
+{\em New\+State} & new state of the specified R\+TC interrupts. This parameter can be\+: E\+N\+A\+B\+LE or D\+I\+S\+A\+B\+LE. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gaec644c636a30ab5e287ba60ffc77132c}\label{group___r_t_c___exported___functions_gaec644c636a30ab5e287ba60ffc77132c}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_SetAlarm@{RTC\_SetAlarm}}
+\index{RTC\_SetAlarm@{RTC\_SetAlarm}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_SetAlarm()}{RTC\_SetAlarm()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Set\+Alarm (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{Alarm\+Value }\end{DoxyParamCaption})}
+
+
+
+Sets the R\+TC alarm value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Alarm\+Value} & R\+TC alarm new value. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gafa81ec17158de1d1a7740eca81b9fb65}\label{group___r_t_c___exported___functions_gafa81ec17158de1d1a7740eca81b9fb65}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_SetCounter@{RTC\_SetCounter}}
+\index{RTC\_SetCounter@{RTC\_SetCounter}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_SetCounter()}{RTC\_SetCounter()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Set\+Counter (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{Counter\+Value }\end{DoxyParamCaption})}
+
+
+
+Sets the R\+TC counter value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Counter\+Value} & R\+TC counter new value. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gaf76be6071d1ba65b009e0791069e602c}\label{group___r_t_c___exported___functions_gaf76be6071d1ba65b009e0791069e602c}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_SetPrescaler@{RTC\_SetPrescaler}}
+\index{RTC\_SetPrescaler@{RTC\_SetPrescaler}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_SetPrescaler()}{RTC\_SetPrescaler()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{Prescaler\+Value }\end{DoxyParamCaption})}
+
+
+
+Sets the R\+TC prescaler value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Prescaler\+Value} & R\+TC prescaler new value. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gaa0a406ef860d5231748c5f0d82673036}\label{group___r_t_c___exported___functions_gaa0a406ef860d5231748c5f0d82673036}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_WaitForLastTask@{RTC\_WaitForLastTask}}
+\index{RTC\_WaitForLastTask@{RTC\_WaitForLastTask}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_WaitForLastTask()}{RTC\_WaitForLastTask()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Wait\+For\+Last\+Task (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Waits until last write operation on R\+TC registers has finished. 
+
+\begin{DoxyNote}{Note}
+This function must be called before any write to R\+TC registers. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___r_t_c___exported___functions_gaca4346e0dc15dccc15179786b28450db}\label{group___r_t_c___exported___functions_gaca4346e0dc15dccc15179786b28450db}} 
+\index{RTC\_Exported\_Functions@{RTC\_Exported\_Functions}!RTC\_WaitForSynchro@{RTC\_WaitForSynchro}}
+\index{RTC\_WaitForSynchro@{RTC\_WaitForSynchro}!RTC\_Exported\_Functions@{RTC\_Exported\_Functions}}
+\doxysubsubsection{\texorpdfstring{RTC\_WaitForSynchro()}{RTC\_WaitForSynchro()}}
+{\footnotesize\ttfamily void R\+T\+C\+\_\+\+Wait\+For\+Synchro (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Waits until the R\+TC registers (R\+T\+C\+\_\+\+C\+NT, R\+T\+C\+\_\+\+A\+LR and R\+T\+C\+\_\+\+P\+RL) are synchronized with R\+TC A\+PB clock. 
+
+\begin{DoxyNote}{Note}
+This function must be called before any read operation after an A\+PB reset or an A\+PB clock stop. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
